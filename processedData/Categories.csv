@@ -1,0 +1,77 @@
+CategoryID,Name,Description
+1,CMP,Computing Essentials
+2,DES,Software Design
+3,EVO,Software Evolution
+4,FND,Mathematical and Engineering Fundamentals
+5,MAA,Software Modeling and Analysis
+6,MGT,Software Management
+7,PRF,Professional Practice
+8,PRO,Software Process
+9,QUA,Software Quality
+10,SAS,System and Application Specialties
+11,VAV,Software Verification and Validation
+12,CMP.cf,Computer Science foundations
+13,CMP.ct,Construction technologies
+14,CMP.fm,Formal construction methods
+15,CMP.tl,Construction tools
+16,DES.ar,"Architectural design
+"
+17,DES.con,Design concepts
+18,DES.dd,"Detailed design
+"
+19,DES.hci,Human computer interface design
+20,DES.ste,Design support tools and evaluation
+21,DES.str,Design strategies
+22,EVO.ac,Evolution activities
+23,EVO.pro,Evolution processes
+24,FND.ec,Engineering economics for software
+25,FND.ef,"Engineering foundations for software
+"
+26,FND.mf,Mathematical foundations
+27,MAA.af,Analysis fundamentals
+28,MAA.er,Eliciting requirements
+29,MAA.md,"Modeling foundations
+"
+30,MAA.rfd,"Requirements fundamentals
+"
+31,MAA.rsd,"Requirements specification & documentation
+"
+32,MAA.rv,Requirements validation
+33,MAA.tm,Types of models
+34,MGT.cm,Software configuration management
+35,MGT.con,Management concepts
+36,MGT.ctl,Project control
+37,MGT.per,Project personnel and organization
+38,MGT.pp,Project planning
+39,PRF.com,Communications skills (specific to SE)
+40,PRF.pr,Professionalism
+41,PRF.psy,Group dynamics / psychology
+42,PRO.con,"Process concepts
+"
+43,PRO.imp,Process implementation
+44,QUA.cc,Software quality concepts and culture
+45,QUA.pca,Process assurance
+46,QUA.pda,Product assurance
+47,QUA.pro,Software quality processes
+48,QUA.std,Software quality standards
+49,SAS.ab,Agent-based systems
+50,SAS.av,Avionics and vehicular systems
+51,SAS.bio,Biomedical systems
+52,SAS.emb,Embedded and real-time systems
+53,SAS.fin,Financial and e-commerce systems
+54,SAS.ind,Industrial process control systems
+55,SAS.inf,Information systems and data processing
+56,SAS.mm,"Multimedia, game and entertainment systems"
+57,SAS.mob,Systems for small and mobile platforms
+58,SAS.net,Network-centric systems
+59,SAS.sci,Scientific systems
+60,SAS.sec,Highly secure systems
+61,SAS.sfy,Safety critical systems
+62,SAS.sur,Fault tolerant and survivable systems
+63,SAS.tel,Telecommunications systems
+64,VAV.fnd,V&V terminology and foundations 
+65,VAV.hct,"Human computer user interface testing and evaluation
+"
+66,VAV.par,Problem analysis and reporting
+67,VAV.rev,Reviews
+68,VAV.tst,Testing

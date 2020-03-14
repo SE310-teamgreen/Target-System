@@ -1,0 +1,183 @@
+78,Knowledge,"Define the term software engineering"".""",1
+78,Knowledge,Describe the problems in software system development and evolution.,2
+78,Knowledge,Identify the activities associated with software engineering as applied in the development of a software system.,3
+79,Application,Use the adapter pattern in the context of a small system.,4
+79,Comprehension,"Describe the major sections of a GOF pattern description, and tell why each is important.",3
+79,Knowledge,"Define the three categories of patterns in Gamma, et. al.",2
+79,Knowledge,Describe the role that patterns play in software design.,1
+80,Knowledge,"Define the term software quality"".""",1
+80,Knowledge,Describe the notion of software quality attributes,2
+80,Knowledge,Identify one software quality attribute model and list the attributes of that model,3
+82,Application,Participate as a review team member for a formal technical review.,3
+82,Comprehension,Describe in detail how formal technical reviews work.,2
+82,Knowledge,Describe general concepts of software reviews and their benefits.,1
+83,Analysis,Use a Z theorem prover to identify inconsistent or incomplete software requirements expressed in formal notation.,3
+83,Evaluation,Identify difficulties encountered in analyzing and specifying software requirements using the Z formal notation.,4
+83,Knowledge,Describe how a formal notation like Z can be used to model software requirements.,1
+83,Synthesis,Model and document software requirements in a simple formal specification.,2
+84,Application,"Define a simple process, along with appropriate process measures.",4
+84,Comprehension,Describe the value of software processes in software development and the central issues with their implementation and use.,3
+84,Knowledge,Discuss the term software process citing examples of different software processes and their use.,2
+84,Knowledge,"List and describe several software development models (e.g., waterfall, spiral, incremental).",1
+85,Application,Able to participate as a reviewer in a code inspection,2
+85,Comprehension,"Understanding of formal inspections including general process, roles of participants, problems and benefits",1
+86,,,1
+86,Application,"Develop a use case model for a moderate-sized software system:
+- determine appropriate use cases
+- construct a use case diagram
+- write use case scenarios.",3
+86,Application,"Review a use case model for readability, correctness, and completeness.",4
+86,Knowledge,"Describe the basic terms, elements, and concepts of use case modeling.",2
+87,Comprehension,"Discuss the difference between accreditation, certification, and licensing",2
+87,Knowledge,Describe the nature and role of computing professional societies.,3
+87,Knowledge,"Describe the purpose and structure of the Software Engineering Code of Ethics and Professional Conduct"".""",4
+87,Knowledge,Identify the key elements of a mature profession,1
+91,Application,Apply knowledge about software engineering ethics and professional conduct to make judgments about case studies involving ethical and professional issues.,2
+91,Knowledge,"Describe the purpose and structure of the Software Engineering Code of Ethics and Professional Conduct""""",1
+104,Analysis,"Identify software requirements from a general system description, formulating questions to be addressed by a client"".""",2
+104,Evaluation,Identify difficulties encountered in analyzing and specifying software requirements.,4
+104,Knowledge,Describe some difficulties in specifying software requirements.,1
+104,Synthesis,Document software requirements in an informal specification.,3
+106,Application,Track a PSP project and correctly use the PSP logs and forms to measure and compute process and product metrics.,5
+106,Comprehension,"Use PSP data, from the literature, to explain the value of PSP practices.",4
+106,Knowledge,Describe the elements of PSP planning.,2
+106,Knowledge,Describe the elements of PSP quality management.,3
+106,Knowledge,Describe the PSP concepts and structure.,1
+109,Evaluation,Evaluate management scenarios for problems and approaches.,2
+109,Knowledge,Describe management terms and concepts.,1
+110,Application,Apply knowledge about software engineering ethics and professional conduct to make judgments about case studies involving ethical and professional issues.,4
+110,Comprehension,Describe the principal components of an engineering profession.,2
+110,Comprehension,"Describe the purpose and structure of the Software Engineering Code of Ethics and Professional Conduct"".""",1
+110,Comprehension,Discuss to what degree software engineering should be considered a “mature” profession.,3
+111,Application,Use the adapter pattern in the context of a small system.,4
+111,Comprehension,"Describe the major sections of a GOF pattern description, and tell why each is important.",3
+111,Knowledge,"Define the three categories of patterns in Gamma, et. al.",2
+111,Knowledge,Describe the role that patterns play in software design.,1
+115,Application,Analyze the requirements and design of a software unit in order to create a test plan for the unit.,4
+115,Knowledge,Describe the basic concepts and techniques of unit testing.,2
+115,Knowledge,Describe the basic issues of Object Oriented testing,3
+115,Knowledge,Describer the basic concepts and terms used in testing software products.,1
+116,Analysis,Use a Z theorem prover to identify inconsistent or incomplete software requirements expressed in formal notation.,3
+116,Evaluation,Identify difficulties encountered in analyzing and specifying software requirements using the Z formal notation.,4
+116,Knowledge,Describe how a formal notation like Z can be used to model software requirements.,1
+116,Synthesis,Model and document software requirements in a simple formal specification.,2
+122,Application,Perform mock inspection,3
+122,Knowledge,Participants roles and responsibilities,2
+122,Knowledge,To provide an overvew of the formal inspection process,1
+123,Evaluation,,1
+125,Application,Analyze the requirements and design of a software unit in order to create a test plan for the unit.,4
+125,Knowledge,Describe the basic concepts and techniques of unit testing.,2
+125,Knowledge,Describe the basic issues of Object Oriented testing,3
+125,Knowledge,Describer the basic concepts and terms used in testing software products.,1
+127,Application,Create a scenario involving software quality attributes.,1
+128,,,1
+129,Evaluation,"Compare how XP and SEI CMM differ in accomplishing the Software Engineering goals of quality, timeliness, productivity.",2
+129,Knowledge,"Define and describe the 12 core practices of the XP team: Simple design, Testing, Refactoring, Coding Standards, Collective ownership, Continuous integration, Metaphor, 40-hour workweek, Pair programming, Small releases, On-site customer, Planning game",1
+130,Comprehension,3. Discuss how to move from storyboards to more precise methods like use cases.,3
+130,Evaluation,2. Assess the value of these vehicles from their actual use.,2
+130,Synthesis,1. Create sketches which stimulate discussion of technical options and opportunities with clients.,1
+131,Analysis,3. Coordinate high-level needs statements with very detailed versions of software requirements.,3
+131,Evaluation,1. Assess the ability of a software project and its design to deliver value to its external stakeholders.,1
+131,Synthesis,"2. Use very general, non-technical goals as a starting point in creating an architecture.",2
+133,Analysis,"3. Practice decision making as a client, architect, and implementer.",3
+133,Evaluation,"2. Understand the differences in this experience, depending on the role being played.",2
+133,Synthesis,"1. In a stakeholder role, contribute to the successful conception and design of a system.",1
+134,,,1
+135,Analysis,"For each project, consider the quality of the documentation, the design, and the verification.  Consider the recommendations the development team gave for future work.",4
+135,Analysis,"Navigate a project and its documents, understand how the project relates to the standards and the documents, evaluate both static and dynamic project quality.",3
+135,Application,"Apply a methodical approach to carefully evaluating all aspects of a project, capturing the relevant data and observations.",8
+135,Application,"Create HTML version of report, either based on a template or from scratch.  Ensure that the underlying HTML is &quot;clean&quot; and well structured.",5
+135,Evaluation,Discuss how the lessons learned in evaluating these two projects can be applied during the semester for the student's own team.  Provide three pieces of advice for future teams.,7
+135,Knowledge,"Be able to navigate a directory structure, either directly via Unix or using anonymous FTP.",2
+135,Knowledge,Understand/learn concepts of software engineering needed to understand the projects produced in earlier semesters.,1
+135,Synthesis,Compare and contrast the approaches in the two different projects.,6
+136,Application,2. Application:  Programming to conform to design documents.,3
+136,Comprehension,1. Concepts:  common program requirements.,2
+136,Knowledge,"1. Knowledge of UML+ design documents and their relation to program code.<br><br>",1
+137,Comprehension,To understand the difference between the concepts of white box and black box testing and the uses for each,1
+137,Knowledge,To introduce the concept of path testing,3
+137,Knowledge,To reinforce and formalize the concepts of equivalence partitions and boundary values,2
+138,Application,Explain your software design philosophy.,3
+138,Knowledge,Define the design principles of coupling and cohesion.,1
+138,Knowledge,List the names of some design patterns.,2
+139,Application,Apply the principles of coupling and cohesion when designing a small object-oriented software system.,5
+139,Application,Explain your software design philosophy.,3
+139,Comprehension,Describe what a design pattern is.,4
+139,Knowledge,Define the design principles of coupling and cohesion.,1
+139,Knowledge,List the names of some design patterns.,2
+142,Application,Software corrective maintenance,1
+142,Application,Software perfective maintenance,2
+143,Comprehension,"Given a set of defects and the phases of development in which they were found, the student will be able to estimate the relative cost of correcting errors early or late in the lifecycle.",6
+143,Comprehension,"Given a set of projects in different categories, the student will be able to determine which category of projects would require more V&amp;V activity, and which would require less.",5
+143,Comprehension,"Given a set of software artifacts, the student will understand the appropriate verification or validation activity to that artifact.",4
+143,Comprehension,"The student will be able to distinguish between verification and validation, given a set of activities.",3
+143,Knowledge,"The student will be able to define both verification and validation, and to know the difference between them.",1
+143,Knowledge,The student will be able to identify the appropriate activities and their classification as either verification or validation. ,2
+144,Application,Develop a use case model for a small lab access system: - determine appropriate use cases - construct a use case diagram - write use case scenarios.,2
+144,Knowledge,"Describe the basic terms, elements, and concepts of use case modeling.",1
+145,Application,Ability to identify use case narrative actions that need refinement,2
+145,Application,Refine an existing use case,3
+145,Comprehension,"Identify the role and use of system use-case models<br>",1
+146,Application,Develop a use case model for a small lab access system: - determine appropriate use cases - construct a use case diagram - write use case scenarios.,2
+146,Knowledge,"Describe the basic terms, elements, and concepts of use case modeling.",1
+147,Evaluation,,1
+148,Analysis,Interpret results of usability testing and make recommendations,5
+148,Application,For junior-level course or above: ability to design and conduct their own usability tests,4
+148,Comprehension,Ability to review a test plan produced by someone else,3
+148,Knowledge,Terminology relevant to usability testing,1
+148,Knowledge,Usability testing process,2
+149,Analysis,Analyze the problem statement to define quality attribute scenarios,3
+149,Evaluation,Evaluate given architectural design according to the specified quality attributes.,1
+149,Synthesis,Create an architectural design for a given problem statement,2
+150,Application,Apply paper-prototyping to evaluate initial user-interface prototype.,1
+151,Analysis,Interpret results of usability testing and make recommendations,5
+151,Application,For junior-level course or above: ability to design and conduct their own usability tests,4
+151,Comprehension,Ability to review a test plan produced by someone else,3
+151,Knowledge,Terminology relevant to usability testing,1
+151,Knowledge,Usability testing process,2
+157,Application,Ability to identify use case narrative actions that need refinement,2
+157,Application,Refine an existing use case,3
+157,Comprehension,"Identify the role and use of system use-case models<br>",1
+158,Application,Develop a use case model for a small lab access system: - determine appropriate use cases - construct a use case diagram - write use case scenarios.,2
+158,Knowledge,"Describe the basic terms, elements, and concepts of use case modeling.",1
+159,Application,"Students will apply material for requirements elicitation, requirements specification and user interface design (prototyping).",1
+159,Synthesis,Students will synthesize the same material in creating their specification and prototype.,2
+160,,,1
+160,Application,Understand and apply various knowledge that is useful in software maintenance and reengineering.,2
+161,Evaluation,Evaluate the merit of a new technology in the context of a specific project,1
+162,Application,Know how to define a well-constructed use case.,3
+162,Comprehension,Know how to interpret a use case.,2
+162,Knowledge,Understand the purpose of use cases and when they would be used.,1
+163,Application,Develop a use case model for a small lab access system: - determine appropriate use cases - construct a use case diagram - write use case scenarios.,2
+163,Knowledge,"Describe the basic terms, elements, and concepts of use case modeling.",1
+164,Application,Ability to identify use case narrative actions that need refinement,2
+164,Application,Refine an existing use case,3
+164,Comprehension,"Identify the role and use of system use-case models<br>",1
+165,Application,Ability to identify use case narrative actions that need refinement,2
+165,Application,Refine an existing use case,3
+165,Comprehension,"Identify the role and use of system use-case models<br>",1
+166,Application,Know how to define a well-constructed use case.,3
+166,Comprehension,Know how to interpret a use case.,2
+166,Knowledge,Understand the purpose of use cases and when they would be used.,1
+167,Application,Apply basic OO technology to the design of a small software system. ,1
+167,Evaluation,Assess quality of class model based on given criteria. ,3
+167,Synthesis,Construct class model that meets all aspects of requirements document. ,2
+176,Application,Plan and track a PSP project.,5
+176,Comprehension,"Use PSP data, from the literature, to explain the value of PSP practices.",4
+176,Knowledge,Describe the elements of PSP planning.,2
+176,Knowledge,Describe the elements of PSP quality management.,3
+176,Knowledge,Describe the PSP concepts and structure.,1
+177,Analysis,Interpret results of usability testing and make recommendations,5
+177,Application,For junior-level course or above: ability to design and conduct their own usability tests,4
+177,Comprehension,Ability to review a test plan produced by someone else,3
+177,Knowledge,Terminology relevant to usability testing,1
+177,Knowledge,Usability testing process,2
+178,Analysis,"For each project, consider the quality of the documentation, the design, and the verification.  Consider the recommendations the development team gave for future work.",4
+178,Analysis,"Navigate a project and its documents, understand how the project relates to the standards and the documents, evaluate both static and dynamic project quality.",3
+178,Application,"Apply a methodical approach to carefully evaluating all aspects of a project, capturing the relevant data and observations.",8
+178,Application,"Create HTML version of report, either based on a template or from scratch.  Ensure that the underlying HTML is &quot;clean&quot; and well structured.",5
+178,Evaluation,Discuss how the lessons learned in evaluating these two projects can be applied during the semester for the student's own team.  Provide three pieces of advice for future teams.,7
+178,Knowledge,"Be able to navigate a directory structure, either directly via Unix or using anonymous FTP.",2
+178,Knowledge,Understand/learn concepts of software engineering needed to understand the projects produced in earlier semesters.,1
+178,Synthesis,Compare and contrast the approaches in the two different projects.,6
+189,Application,The student should be able to demonstrate test driven development strategies including the use of mock objects,1
