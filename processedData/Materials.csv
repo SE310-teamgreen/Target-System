@@ -1,0 +1,669 @@
+MaterialID,Name,LinkToMaterial,InitialModuleID,Rating,NumberOfRatings,AccessFlag
+60,Annotated lecture slides for introducing patterns,Patterns.ppt,111,0,0,-1
+2,Teaching tips for the ISE1 module                                                                                                                                                                       ,ise1-teaching.doc                                                                                                                                                                                       ,78,0,0,-1
+61,Sample exercises,dpat1-exercise.pdf,111,0,0,-1
+5,OSE1 exercise booklet,ise1-exercise.doc,78,0,0,-1
+6,Key to OSE1 exercise,ise1-exercise-key.doc,78,0,0,-1
+56,Teaching tips,req01-teaching.htm,77,0,0,-1
+58,Exercise,req01-exercise.htm,77,0,0,-1
+59,Exercise key,req01-exercise-key.htm,77,0,0,-1
+62,Instructor tips,QUA1 Instructor Tips.doc,80,0,0,-1
+63,Exercise,QUA1 Exercise.doc,80,0,0,-1
+64,Presentation slides,QUA1 Presentation.ppt,80,0,0,-1
+73,SEP1 lecture notes,sep1-lecture.ppt,84,0,0,-1
+74,SEP1 lecture notes,sep1-lecture.pdf,84,0,0,-1
+75,SEP1 exercise booklet,sep1-exercise.doc,84,0,0,-1
+76,SEP1 exercise booklet,sep1-exercise.pdf,84,0,0,-1
+77,Key to SEP1exercise,sep1-exercise-key.doc,84,0,0,-1
+78,Key to SEP1exercise,sep1-exercise-key.pdf,84,0,0,-1
+79,Teaching tips for the SEP1 module,sep1-teaching.doc,84,0,0,-1
+80,Teaching tips for the SEP1 module,sep1-teaching.pdf,84,0,0,-1
+81,Instructions to students,COEN 286 Code Inspection Exercise.htm,85,0,0,-1
+82,Inspection Checklist,COEN 286 Code Inspection Checklist.htm,85,0,0,-1
+83,Listing of code for students to review,code-listing.txt,85,0,0,-1
+84,REQ3 Lecture Notes,req3-lecture.ppt,86,0,0,-1
+85,REQ3 Lecture Notes,req3-lecture.pdf,86,0,0,-1
+86,REQ3 Exercise,req3-exercise.doc,86,0,0,-1
+87,REQ3 Exercise,req3-exercise.pdf,86,0,0,-1
+88,REQ3 Exercise Key,req3-exercise-key.doc,86,0,0,-1
+89,Req3 Exercise Key,req3-exercise-key.pdf,86,0,0,-1
+90,REQ3 Teaching Tips,req3-teaching.doc,86,0,0,-1
+91,OSE2 Lecture Notes,ose2-lecture.ppt,87,0,0,-1
+92,OSE Lecture Notes,ose2-lecture.pdf,87,0,0,-1
+97,OSE3 lecture notes,ose3-lecture.ppt,91,0,0,-1
+98,OSE3 lecture notes,ose3-lecture.pdf,91,0,0,-1
+99,OSE3 Case Study Exercise,ethics-exercise.doc,91,0,0,-1
+100,OSE3 Case Study Exercise,ethics-exercise.pdf,91,0,0,-1
+101,OSE3 Case Studies,ethics-cases.doc,91,0,0,-1
+102,OSE3 Case Studies,ethics-cases.pdf,91,0,0,-1
+103,Teaching tips for the OSE3 module,ose3-teaching.doc,91,0,0,-1
+104,Teaching tips for the OSE3 module,ose3-teaching.pdf,91,0,0,-1
+105,Informal specification exercise,req01-exercise.html,77,0,0,-1
+106,Teaching tips,req01-teaching.html,77,0,0,-1
+107,Key to informal specification exercise,req01-exercise-key.html,77,0,0,-1
+108,Test,NewFile.aspx,0,0,0,-1
+109,asdfasdf,Apache vs. IIS.doc,0,0,0,-1
+117,PRO2 lecture notes,PRO2-lecture.ppt,106,0,0,-1
+118,PRO2 lecture notes,PRO2-lecture.pdf,106,0,0,-1
+119,PRO2 exercise booklet,PRO2-exercise.doc,106,0,0,-1
+120,PRO2 exercise booklet,PRO2-exercise.pdf,106,0,0,-1
+121,PRO2 exercise solution,PRO2-exercise-sol.doc,106,0,0,-1
+122,PRO2 exercise solution,PRO2-exercise-sol.pdf,106,0,0,-1
+123,Teaching tips for the PRO2 module,PRO2-teaching.doc,106,0,0,-1
+124,Index of the module,Badawy.htm,109,0,0,-1
+126,Organization,BadawyOrganization.htm,109,0,0,-1
+127,Planning and Decision Making,BadawyPlanningandDecisionMaking.htm,109,0,0,-1
+128,Controlling and Evaluating,BadawyControllingandEvaluating.htm,109,0,0,-1
+129,Lecture notes,SEprofession-lecture.ppt,110,0,0,-1
+130,Lecture notes,SEprofession-lecture.pdf,110,0,0,-1
+131,Ariane 5 Accident video,ariane.mov,110,0,0,-1
+132,Ariane 5 Case Study Exercise,Ariane5exercise.doc,110,0,0,-1
+133,Ariane 5 Case Study Exercise,Ariane5exercise.pdf,110,0,0,-1
+134,Teaching tips,SEprofession-teaching.doc,110,0,0,-1
+135,Sample assessment exercises (long version),dpat1-assessment.pdf,111,0,0,-1
+136,test,test file.doc,0,0,0,-1
+137,test,test file.doc,0,0,0,-1
+138,Lecture Notes,UnitTesting-lecture.ppt,125,0,0,-1
+139,Unit Test Planning Exercise,UnitTesting-exercise.doc,125,0,0,-1
+140,KEY for Unit Test Planning Exercise,UnitTesting-exercise-key.doc,125,0,0,-1
+141,Teaching Tips,Unit-Testing-teaching.doc,125,0,0,-1
+142,Teaching tips for the REQ02 module,req02-teaching.htm,83,0,0,-1
+144,Skeleton Z model file,Elev03skeleton.tex,83,0,0,-1
+145,Sample soluton Z model file,Elev05.tex,83,0,0,-1
+146,Informal specification exercise,req01-exercise.html,104,0,0,-1
+147,Teaching tips,req01-teaching.html,104,0,0,-1
+148,Key to informal specification exercise,req01-exercise-key.html,104,0,0,-1
+149,Informal specification exercise,req01-exercise.html,104,0,0,-1
+150,Teaching tips,req01-teaching.html,104,0,0,-1
+151,Key to informal specification exercise,req01-exercise-key.html,104,0,0,-1
+152,Teaching tips for the REQ02 module,req02-teaching.htm,83,0,0,-1
+153,REQ02 exercise,req02-exercise.htm,83,0,0,-1
+154,Skeleton Z model file,Elev03skeleton.tex,83,0,0,-1
+155,Sample soluton Z model file,Elev05.tex,83,0,0,-1
+156,Teaching tips,SimpleFormalModeling-teaching.html,116,0,0,-1
+157,Exercise,SimpleFormalModeling-exercise.html,116,0,0,-1
+158,Skeleton Z model file,Elev03skeleton.tex,83,0,0,-1
+159,Sample soluton Z model file,Elev05.tex,83,0,0,-1
+160,asdfasdf,Apache vs. IIS.doc,0,0,0,-1
+161,Lecture notes,SEprofession-lecture.ppt,110,0,0,-1
+162,Lecture notes,SEprofession-lecture.pdf,110,0,0,-1
+163,Ariane 5 Accident video,ariane.mov,110,0,0,-1
+164,Ariane 5 Case Study Exercise,Ariane5exercise.doc,110,0,0,-1
+165,Ariane 5 Case Study Exercise,Ariane5exercise.pdf,110,0,0,-1
+166,Teaching tips,SEprofession-teaching.doc,110,0,0,-1
+167,Lecture notes,SEprofession-lecture.ppt,110,0,0,-1
+168,Lecture notes,SEprofession-lecture.pdf,110,0,0,-1
+169,Ariane 5 Accident video,ariane.mov,110,0,0,-1
+170,Ariane 5 Case Study Exercise,Ariane5exercise.doc,110,0,0,-1
+171,Ariane 5 Case Study Exercise,Ariane5exercise.pdf,110,0,0,-1
+65,Instructor tips,QUA2 Instructor Tips.doc,82,0,0,-1
+66,Exercise,QUA2 Exercise.doc,82,0,0,-1
+67,Presentation slides - Overview,QUA2 Slides - Overview.ppt,82,0,0,-1
+68,Presentation slides - FTR,QUA2 Slides - FTR.ppt,82,0,0,-1
+69,Teaching tips for the REQ02 module,req02-teaching.htm,83,0,0,-1
+70,REQ02 exercise,req02-exercise.htm,83,0,0,-1
+71,Skeleton Z model file,Elev03skeleton.tex,83,0,0,-1
+72,Sample soluton Z model file,Elev05.tex,83,0,0,-1
+125,Overview of Management,BadawyOverviewOfManagement.htm,109,0,0,-1
+143,REQ02 exercise,req02-exercise.htm,104,0,0,-1
+172,Teaching tips,SEprofession-teaching.doc,110,0,0,-1
+173,Lecture notes,SEprofession-lecture.ppt,110,0,0,-1
+179,Lecture notes,SEprofession-lecture.ppt,110,0,0,-1
+180,Lecture notes,SEprofession-lecture.pdf,110,0,0,-1
+181,Ariane 5 Accident video,ariane.mov,110,0,0,-1
+182,Ariane 5 Case Study Exercise,Ariane5exercise.doc,110,0,0,-1
+183,Ariane 5 Case Study Exercise,Ariane5exercise.pdf,110,0,0,-1
+184,Teaching tips,SEprofession-teaching.doc,110,0,0,-1
+185,Lecture notes,SEprofession-lecture.ppt,110,0,0,-1
+186,Lecture notes,SEprofession-lecture.pdf,110,0,0,-1
+187,Ariane 5 Accident video,ariane.mov,110,0,0,-1
+188,Ariane 5 Case Study Exercise,Ariane5exercise.doc,110,0,0,-1
+189,Ariane 5 Case Study Exercise,Ariane5exercise.pdf,110,0,0,-1
+190,Teaching tips,SEprofession-teaching.doc,110,0,0,-1
+191,Lecture notes,SEprofession-lecture.ppt,110,0,0,-1
+192,Lecture notes,SEprofession-lecture.pdf,110,0,0,-1
+197,Test,test.txt,0,0,0,-1
+199,Lecture Notes,UnitTesting-lecture.ppt,125,0,0,-1
+200,Unit Test Planning Exercise,UnitTesting-exercise.doc,125,0,0,-1
+201,KEY to Unit Test Planning Exercise,UnitTesting-exercise-key.doc,125,0,0,-1
+202,Teaching Tips,Unit-Testing-teaching.doc,125,0,0,-1
+207,Inspection overview,inspection_an__overview.pdf,122,0,0,-1
+208,defect log,defect log.pdf,122,0,0,-1
+209,Inspection overview,inspection_an__overview.pdf,122,0,0,-1
+210,defect log,defect log.pdf,122,0,0,-1
+211,Software Quality Attribute Scenario Handout,Quality Attribute Scenarios.doc,127,0,0,-1
+212,,Assignment-2.tech.pdf,123,0,0,-1
+213,,Assignment-2.tech-info.pdf,123,0,0,-1
+215,"Extreme Programming Notes, Lab, &amp; Exercise",XP.doc,129,0,0,-1
+221,Extreme Programming Notes &amp; Lab,XP.doc,129,0,0,-1
+222,Exercise: Comparison of SEI CMM and XP,XPvsSEI.doc,129,0,0,-1
+223,Extreme Programming Notes &amp; Lab,XP.doc,129,0,0,-1
+224,Exercise: Comparison of SEI CMM and XP,XPvsSEI.doc,129,0,0,-1
+225,Extreme Programming Notes &amp; Lab,XP.doc,129,0,0,-1
+226,Exercise: Comparison of SEI CMM and XP,XPvsSEI.doc,129,0,0,-1
+227,Extreme Programming Notes &amp; Lab,XP.doc,129,0,0,-1
+228,Exercise: Comparison of SEI CMM and XP,XPvsSEI.doc,129,0,0,-1
+229,Extreme Programming Notes &amp; Lab,XP.doc,129,0,0,-1
+230,Exercise: Comparison of SEI CMM and XP,XPvsSEI.doc,129,0,0,-1
+231,Extreme Programming Notes &amp; Lab,XP.doc,129,0,0,-1
+232,Exercise: Comparison of SEI CMM and XP,XPvsSEI.doc,129,0,0,-1
+233,Extreme Programming Notes &amp; Lab,XP.doc,129,0,0,-1
+234,Exercise: Comparison of SEI CMM and XP,XPvsSEI.doc,129,0,0,-1
+235,Extreme Programming Notes &amp; Lab,XP.doc,129,0,0,-1
+236,Exercise: Comparison of SEI CMM and XP,XPvsSEI.doc,129,0,0,-1
+237,Extreme Programming Notes &amp; Lab,XP.doc,129,0,0,-1
+238,Exercise: Comparison of SEI CMM and XP,XPvsSEI.doc,129,0,0,-1
+241,UW-Plattevilles Course Syllabus for Software Maintenance class,se386Spr2005_Syllabus.doc,0,0,0,-1
+242,"Homework example, showing goals of creating the artifacts and then interacting about them and assessing results. ",storyboard_assignment.doc,130,0,0,-1
+243,"Homework example, showing goals of creating the artifacts and then interacting about them and assessing results.",storyboard_assignment.doc,130,0,0,-1
+245,Problem statement introduction with example,Problem_Statement_sample.doc,131,0,0,-1
+246,Problem statement introduction with example,Problem_Statement_sample.doc,131,0,0,-1
+247,Problem statement introduction with example,Problem_Statement_sample.doc,131,0,0,-1
+248,Problem statement introduction with example,Problem_Statement_sample.doc,131,0,0,-1
+249,Problem statement introduction with example,Problem_Statement_sample.doc,131,0,0,-1
+250,Project kick-off role assignment description.,Software_Project_intro.doc,133,0,0,-1
+251,Project kick-off role assignment description.,Software_Project_intro.doc,133,0,0,-1
+252,Project kick-off role assignment description.,Software_Project_intro.doc,133,0,0,-1
+253,Project kick-off role assignment description.,Software_Project_intro.doc,133,0,0,-1
+254,UW-Plattevilles Course Syllabus for Software Maintenance class,se386Spr2005_Syllabus.doc,0,0,0,-1
+255,List of course activities,se386Spr2005.html,134,0,0,-1
+256,Lab_001_Structured Analysis,se386_Spr2005_Lab_001_StructAnalysis.doc,134,0,0,-1
+257,Lab_002_Compile Puff,se386_Spr2005_Lab_002_CompilePuff.doc,134,0,0,-1
+258,Lab_003_Dynamic Analysis using RECON3,se386_Spr2005_Lab_003_DynamicAnalysis_RECON3.doc,134,0,0,-1
+259,Lab_004 Structured Analysis of PUFF,se386_Spr2005_Lab_004_StructAnalysis of PUFF.doc,134,0,0,-1
+260,Lab_005_OOA&amp;D of Puff to produce Classes,se386_Spr2005_Lab_005_Classes.doc,134,0,0,-1
+261,Lab_006_Target System Questions,se386_Spr2005_Lab_006_TargetSystem.doc,134,0,0,-1
+262,Example Project Report,se386_Spr2005_SampleProjectReport.doc,134,0,0,-1
+263,Example Time Log,se386SampleTimeLog.xls,134,0,0,-1
+264,Example Progress Report,se386_Spr2005_Example ProgressReport.doc,134,0,0,-1
+265,"The project assignment, which gives the report structure, instructions for production, and grading criteria.",project-report.html,135,0,0,-1
+266,A template that students may use as the basis for their own HTML file.  They are required to submit a nicely laid out document with clean underlying HTML.,write-template.html,135,0,0,-1
+267,"Grading rubric #1 (based on Word printmerge capabiltiy) -- grading of section 1 and section 4, layout issues, and writing issues",write-rubric1.pdf,135,0,0,-1
+268,Grading rubric #1 filled in (as an example),write-fillin1.pdf,135,0,0,-1
+269,"Grading rubric #2, page 1 (based on Word printmerge capability) -- grading of either section 2 or section 3 plus layout and writing issues directly related to that section",write-rubric2-p1.pdf,135,0,0,-1
+93,OSE2 Exercise,ose2-exercise.doc,87,0,0,-1
+94,OSE2 Exercise Key,ose2-exercise-key.doc,87,0,0,-1
+95,OSE2 Exercise Key,ose2-exercise-key.pdf,87,0,0,-1
+96,OSE2 Teaching Tips,ose2-teaching.doc,87,0,0,-1
+270,"Grading rubric #2, page 2",write-rubric2-p2.pdf,135,0,0,-1
+271,"Grading rubric #2, page 1 -- filled in (as an example)",write-fillin2-p1.pdf,135,0,0,-1
+272,"Grading rubric #2, page 2 -- filled in (as an example)",write-fillin2-p2.pdf,135,0,0,-1
+273,"The project assignment, which gives the report structure, instructions for production, and grading criteria.",project-report.html,135,0,0,-1
+274,A template that students may use as the basis for their own HTML file.  They are required to submit a nicely laid out document with clean underlying HTML.,write-template.html,135,0,0,-1
+275,"Grading rubric #1 (based on Word printmerge capabiltiy) -- grading of section 1 and section 4, layout issues, and writing issues",write-rubric1.pdf,135,0,0,-1
+276,Grading rubric #1 filled in (as an example),write-fillin1.pdf,135,0,0,-1
+277,"Grading rubric #2, page 1 (based on Word printmerge capability) -- grading of either section 2 or section 3 plus layout and writing issues directly related to that section",write-rubric2-p1.pdf,135,0,0,-1
+278,"Grading rubric #2, page 2",write-rubric2-p2.pdf,135,0,0,-1
+279,"Grading rubric #2, page 1 -- filled in (as an example)",write-fillin2-p1.pdf,135,0,0,-1
+280,"Grading rubric #2, page 2 -- filled in (as an example)",write-fillin2-p2.pdf,135,0,0,-1
+281,"The project assignment, which gives the report structure, instructions for production, and grading criteria.",project-report.html,135,0,0,-1
+282,A template that students may use as the basis for their own HTML file.  They are required to submit a nicely laid out document with clean underlying HTML.,write-template.html,135,0,0,-1
+283,"Grading rubric #1 (based on Word printmerge capabiltiy) -- grading of section 1 and section 4, layout issues, and writing issues",write-rubric1.pdf,135,0,0,-1
+284,Grading rubric #1 filled in (as an example),write-fillin1.pdf,135,0,0,-1
+285,"Grading rubric #2, page 1 (based on Word printmerge capability) -- grading of either section 2 or section 3 plus layout and writing issues directly related to that section",write-rubric2-p1.pdf,135,0,0,-1
+286,"Grading rubric #2, page 2",write-rubric2-p2.pdf,135,0,0,-1
+287,"Grading rubric #2, page 1 -- filled in (as an example)",write-fillin2-p1.pdf,135,0,0,-1
+288,"Grading rubric #2, page 2 -- filled in (as an example)",write-fillin2-p2.pdf,135,0,0,-1
+335,"Object-Oriented Design Principles and Patterns<br>Design exercise",DesignPrinciplesAndPatterns.ppt,138,0,0,-1
+336,Design Problem - Two-player board game,Unit1-BoardGame.htm,138,0,0,-1
+337,Design Problem - Automobile Maintenance and Diagnosis System,Unit1-AutoDiagnostic.htm,138,0,0,-1
+343,Exercise #1,SWmaintExercise1.htm,142,0,0,-1
+344,Exercise #2,SWmaintExercise2.htm,142,0,0,-1
+345,Exercise #3,SWmaintExercise3.htm,142,0,0,-1
+346,Exercise #1,SWmaintExercise1.htm,142,0,0,-1
+347,Exercise #2,SWmaintExercise2.htm,142,0,0,-1
+348,Exercise #3,SWmaintExercise3.htm,142,0,0,-1
+349,Defect and Maintenance Report - linked from Exercise #3 and also used in Exercise #4,defect_and_maintenance_report_template.htm,142,0,0,-1
+379,"Applying Use Case Templates (lecture notes, 18 slides)",UsingUseCaseTemplates v2.ppt,144,0,0,-1
+380,Use Case Template,UseCaseTemplate-v1.doc,144,0,0,-1
+381,Description of lab access problem,LabRequestEntry.doc,144,0,0,-1
+382,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,144,0,0,-1
+383,Problem solution,RequestEntrySolution.doc,144,0,0,-1
+384,"Applying Use Case Templates (lecture notes, 18 slides)",UsingUseCaseTemplates v2.ppt,144,0,0,-1
+385,Use Case Template,UseCaseTemplate-v1.doc,144,0,0,-1
+386,Description of lab access problem,LabRequestEntry.doc,144,0,0,-1
+387,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,144,0,0,-1
+388,Problem solution,RequestEntrySolution.doc,144,0,0,-1
+389,"Applying Use Case Templates (lecture notes, 18 slides)",UsingUseCaseTemplates v2.ppt,144,0,0,-1
+390,Use Case Template,UseCaseTemplate-v1.doc,144,0,0,-1
+391,Description of lab access problem,LabRequestEntry.doc,144,0,0,-1
+392,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,144,0,0,-1
+393,Problem solution,RequestEntrySolution.doc,144,0,0,-1
+394,"Applying Use Case Templates (lecture notes, 18 slides)",UsingUseCaseTemplates v2.ppt,144,0,0,-1
+395,Use Case Template,UseCaseTemplate-v1.doc,144,0,0,-1
+396,Description of lab access problem,LabRequestEntry.doc,144,0,0,-1
+397,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,144,0,0,-1
+398,Problem solution,RequestEntrySolution.doc,144,0,0,-1
+399,"Applying Use Case Templates (lecture notes, 18 slides)",UsingUseCaseTemplates v2.ppt,144,0,0,-1
+400,Use Case Template,UseCaseTemplate-v1.doc,144,0,0,-1
+401,Description of lab access problem,LabRequestEntry.doc,144,0,0,-1
+402,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,144,0,0,-1
+403,Problem solution,RequestEntrySolution.doc,144,0,0,-1
+434,"Applying Use Case Templates (lecture notes, 18 slides)",UsingUseCaseTemplates v2.ppt,144,0,0,-1
+435,Use Case Template,UseCaseTemplate-v1.doc,144,0,0,-1
+436,Description of lab access problem,LabRequestEntry.doc,144,0,0,-1
+437,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,144,0,0,-1
+438,Problem solution,RequestEntrySolution.doc,144,0,0,-1
+439,"Applying Use Case Templates (lecture notes, 18 slides)",UsingUseCaseTemplates v2.ppt,144,0,0,-1
+440,Use Case Template,UseCaseTemplate-v1.doc,144,0,0,-1
+441,Description of lab access problem,LabRequestEntry.doc,144,0,0,-1
+442,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,144,0,0,-1
+443,Problem solution,RequestEntrySolution.doc,144,0,0,-1
+446,Description of lab access problem,LabRequestEntry.doc,144,0,0,-1
+447,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,144,0,0,-1
+448,Problem solution,RequestEntrySolution.doc,144,0,0,-1
+449,"Applying Use Case Templates (lecture notes, 18 slides)",UsingUseCaseTemplates v2.ppt,144,0,0,-1
+450,Use Case Template,UseCaseTemplate-v1.doc,144,0,0,-1
+451,Description of lab access problem,LabRequestEntry.doc,144,0,0,-1
+452,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,144,0,0,-1
+453,Problem solution,RequestEntrySolution.doc,144,0,0,-1
+110,Informal specification exercise,req01-exercise.html,104,0,0,-1
+111,Teaching tips,req01-teaching.html,104,0,0,-1
+112,Key to informal specification exercise,req01-exercise-key.html,104,0,0,-1
+113,Key to informal specification exercise,req01-exercise-key (1).html,104,0,0,-1
+444,"Applying Use Case Templates (lecture notes, 18 slides)",UsingUseCaseTemplates v2.ppt,144,0,0,-1
+445,Use Case Template,UseCaseTemplate-v1.doc,144,0,0,-1
+714,,,0,0,0,0
+722,PSP introductory lecture,PSP-lecture.ppt,176,0,0,-1
+460,"Use Case Refinement (lecture notes, 11 &quot;boards&quot;",Use Case Refinement Lecture Notes.doc,157,0,0,-1
+461,Solution to homework assignment,HasAccessSolution.doc,157,0,0,-1
+463,"Use Case Refinement (lecture notes, 11 &quot;boards&quot;",Use Case Refinement Lecture Notes.doc,157,0,0,-1
+464,Solution to homework assignment,HasAccessSolution.doc,157,0,0,-1
+466,"Use Case Refinement (lecture notes, 11 &quot;boards&quot;",Use Case Refinement Lecture Notes.doc,157,0,0,-1
+467,Homework assigment (existing use case),HasAccessHomework.doc,157,0,0,-1
+468,Solution to homework assignment (refined use case),HasAccessSolution.doc,157,0,0,-1
+470,"Use Case Refinement (lecture notes, 11 &quot;boards&quot;",Use Case Refinement Lecture Notes.doc,157,0,0,-1
+471,Use case template,UseCaseTemplate-v1.doc,157,0,0,-1
+472,Homework assigment (existing use case),HasAccessHomework.doc,157,0,0,-1
+473,Solution to homework assignment (refined use case),HasAccessSolution.doc,157,0,0,-1
+475,"Use Case Refinement (lecture notes, 11 &quot;boards&quot;",Use Case Refinement Lecture Notes.doc,157,0,0,-1
+476,Use case template,UseCaseTemplate-v1.doc,157,0,0,-1
+477,Homework assigment (existing use case),HasAccessHomework.doc,157,0,0,-1
+478,Solution to homework assignment (refined use case),HasAccessSolution.doc,157,0,0,-1
+480,"Use Case Refinement (lecture notes, 11 &quot;boards&quot;",Use Case Refinement Lecture Notes.doc,157,0,0,-1
+481,Use case template,UseCaseTemplate-v1.doc,157,0,0,-1
+482,Homework assigment (existing use case),HasAccessHomework.doc,157,0,0,-1
+483,Solution to homework assignment (refined use case),HasAccessSolution.doc,157,0,0,-1
+485,"Use Case Refinement (lecture notes, 11 &quot;boards&quot;",Use Case Refinement Lecture Notes.doc,157,0,0,-1
+486,Use case template,UseCaseTemplate-v1.doc,157,0,0,-1
+487,Homework assigment (existing use case),HasAccessHomework.doc,157,0,0,-1
+488,Solution to homework assignment (refined use case),HasAccessSolution.doc,157,0,0,-1
+494,"Use Case Refinement (lecture notes, 11 &quot;boards&quot;",Use Case Refinement Lecture Notes.doc,157,0,0,-1
+495,Use case template,UseCaseTemplate-v1.doc,157,0,0,-1
+496,Homework assigment (existing use case),HasAccessHomework.doc,157,0,0,-1
+497,Solution to homework assignment (refined use case),HasAccessSolution.doc,157,0,0,-1
+499,"Use Case Refinement (lecture notes, 11 &quot;boards&quot;",Use Case Refinement Lecture Notes.doc,157,0,0,-1
+500,Use case template,UseCaseTemplate-v1.doc,157,0,0,-1
+501,Homework assigment (existing use case),HasAccessHomework.doc,157,0,0,-1
+502,Solution to homework assignment (refined use case),HasAccessSolution.doc,157,0,0,-1
+503,Presentation Slides in MS Powerpoint.  Teaching Tips in Notes Section of Slides.,swenet_VAV.ppt,143,0,0,-1
+504,Exercises for In Class or Exam Questions,swenet_VAV_Exercise.doc,143,0,0,-1
+505,Presentation Slides in MS Powerpoint.  Teaching Tips in Notes Section of Slides.,swenet_VAV.ppt,143,0,0,-1
+506,Exercises for In Class or Exam Questions,swenet_VAV_Exercise.doc,143,0,0,-1
+507,Presentation Slides in MS Powerpoint.  Teaching Tips in Notes Section of Slides.,swenet_VAV.ppt,143,0,0,-1
+522,test,test.txt,0,0,0,-1
+523,Software Quality Attribute Scenario Handout,Quality Attribute Scenarios.doc,127,0,0,-1
+534,Use Case Template,UseCaseTemplate-v1.doc,158,0,0,-1
+535,Description of lab access problem,LabRequestEntry.doc,158,0,0,-1
+536,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,158,0,0,-1
+537,Problem solution,RequestEntrySolution.doc,158,0,0,-1
+538,Lecture Notes (19 Slides),UsingUseCaseTemplates v3b.ppt,158,0,0,-1
+539,Use Case Template,UseCaseTemplate-v1.doc,158,0,0,-1
+540,Description of lab access problem,LabRequestEntry.doc,158,0,0,-1
+541,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,158,0,0,-1
+542,Problem solution,RequestEntrySolution.doc,158,0,0,-1
+543,Lecture Notes (19 Slides),UsingUseCaseTemplates v3b.ppt,158,0,0,-1
+544,Problem Statement,problem-statement.htm,149,0,0,-1
+545,Solution 1,solution1.ppt,149,0,0,-1
+546,Solution 2.,solution2.doc,149,0,0,-1
+547,Tips for Instructors,tips-for-instructor.doc,149,0,0,-1
+548,Grading Criteria,grading_criterion.doc,149,0,0,-1
+549,Problem Statement,problem-statement.htm,149,0,0,-1
+550,Solution 1,solution1.ppt,149,0,0,-1
+551,Solution 2.,solution2.doc,149,0,0,-1
+552,Tips for Instructors,tips-for-instructor.doc,149,0,0,-1
+553,Grading Criteria,grading_criterion.doc,149,0,0,-1
+554,Problem Statement,problem-statement.htm,149,0,0,-1
+555,Solution 1,solution1.ppt,149,0,0,-1
+556,Solution 2.,solution2.doc,149,0,0,-1
+557,Tips for Instructors,tips-for-instructor.doc,149,0,0,-1
+558,Grading Criteria,grading_criterion.doc,149,0,0,-1
+559,1 of 2 team assignments - requirements specification and user interface design,PalmRequirementsProj.doc,159,0,0,-1
+560,2nd - adding a requirements elicitation phase and experience in using Statecharts to the above,elicitation-prototyping-assignment.html,159,0,0,-1
+561,Supporting Lecture Slides 1 - requirements elicitation,elicitation.ppt,159,0,0,-1
+562,Supporting Lecture Slides 2 - user interface design,Requirements_UID.ppt,159,0,0,-1
+563,Supporting Lecture Slides 3 - statechart formalism,statecharts.ppt,159,0,0,-1
+564,PalmOS executable demo for optional use with the UID slides and the PalmOS Simulator (see slide notes),BBallStatsD.prc,159,0,0,-1
+565,UW-Plattevilles Course Syllabus for Software Maintenance class,se386Spr2005_Syllabus.doc,134,0,0,-1
+566,List of course activities,se386Spr2005.html,134,0,0,-1
+114,Informal specification exercise,req01-exercise.pdf,104,0,0,-1
+115,Teaching tips,req01-teaching.pdf,104,0,0,-1
+116,Key to informal specification exercise,req01-exercise-key.pdf,104,0,0,-1
+198,Test,test.txt,0,0,0,-1
+216,"Extreme Programming Notes, Lab, &amp; Exercise",XP.doc,129,0,0,-1
+217,Extreme Programming Notes &amp; Lab,XP.doc,129,0,0,-1
+218,Exercise: Comparison of SEI CMM and XP,XPvsSEI.doc,129,0,0,-1
+219,Extreme Programming Notes &amp; Lab,XP.doc,129,0,0,-1
+220,Exercise: Comparison of SEI CMM and XP,XPvsSEI.doc,129,0,0,-1
+244,Problem statement introduction with example,Problem_Statement_sample.doc,131,0,0,-1
+330,,m1. FoundationPrograms.doc,136,0,0,-1
+350,Exercise #1,SWmaintExercise1.htm,142,0,0,-1
+351,Exercise #2,SWmaintExercise2.htm,142,0,0,-1
+352,Exercise #3,SWmaintExercise3.htm,142,0,0,-1
+353,Defect and Maintenance Report - linked from Exercise #3 and also used in Exercise #4,defect_and_maintenance_report_template.htm,142,0,0,-1
+354,Exercise #4,SWmaintExercise4.htm,142,0,0,-1
+355,Exercise #5,SWmaintExercise5.htm,142,0,0,-1
+356,Exercise #1,SWmaintExercise1.htm,142,0,0,-1
+357,Exercise #2,SWmaintExercise2.htm,142,0,0,-1
+358,Exercise #3,SWmaintExercise3.htm,142,0,0,-1
+359,Defect and Maintenance Report - linked from Exercise #3 and also used in Exercise #4,defect_and_maintenance_report_template.htm,142,0,0,-1
+360,Exercise #4,SWmaintExercise4.htm,142,0,0,-1
+361,Exercise #5,SWmaintExercise5.htm,142,0,0,-1
+458,"Use Case Refinement (lecture notes, 11 &quot;boards&quot;",Use Case Refinement Lecture Notes.doc,157,0,0,-1
+508,Exercises for In Class or Exam Questions,swenet_VAV_Exercise.doc,143,0,0,-1
+567,Lab_001_Structured Analysis,se386_Spr2005_Lab_001_StructAnalysis.doc,134,0,0,-1
+568,Lab_002_Compile Puff,se386_Spr2005_Lab_002_CompilePuff.doc,134,0,0,-1
+569,Lab_003_Dynamic Analysis using RECON3,se386_Spr2005_Lab_003_DynamicAnalysis_RECON3.doc,134,0,0,-1
+570,Lab_004 Structured Analysis of PUFF,se386_Spr2005_Lab_004_StructAnalysis of PUFF.doc,134,0,0,-1
+571,Lab_005_OOA&amp;D of Puff to produce Classes,se386_Spr2005_Lab_005_Classes.doc,134,0,0,-1
+572,Lab_006_Target System Questions,se386_Spr2005_Lab_006_TargetSystem.doc,134,0,0,-1
+573,Example Project Report,se386_Spr2005_SampleProjectReport.doc,134,0,0,-1
+574,Example Time Log,se386SampleTimeLog.xls,134,0,0,-1
+575,Example Progress Report,se386_Spr2005_Example ProgressReport.doc,134,0,0,-1
+576,UW-Plattevilles Course Syllabus for Software Maintenance class,se386Spr2005_Syllabus.doc,0,0,0,-1
+577,List of course activities,se386Spr2005.html,134,0,0,-1
+578,Lab_001_Structured Analysis,se386_Spr2005_Lab_001_StructAnalysis.doc,134,0,0,-1
+579,Lab_002_Compile Puff,se386_Spr2005_Lab_002_CompilePuff.doc,134,0,0,-1
+580,Lab_003_Dynamic Analysis using RECON3,se386_Spr2005_Lab_003_DynamicAnalysis_RECON3.doc,134,0,0,-1
+581,Lab_004 Structured Analysis of PUFF,se386_Spr2005_Lab_004_StructAnalysis of PUFF.doc,134,0,0,-1
+582,Lab_005_OOA&amp;D of Puff to produce Classes,se386_Spr2005_Lab_005_Classes.doc,134,0,0,-1
+583,Lab_006_Target System Questions,se386_Spr2005_Lab_006_TargetSystem.doc,134,0,0,-1
+584,Example Project Report,se386_Spr2005_SampleProjectReport.doc,134,0,0,-1
+585,Example Time Log,se386SampleTimeLog.xls,134,0,0,-1
+586,Example Progress Report,se386_Spr2005_Example ProgressReport.doc,134,0,0,-1
+587,UW-Plattevilles Course Syllabus for Software Maintenance class,se386Spr2005_Syllabus.doc,0,0,0,-1
+588,List of course activities,se386Spr2005.html,134,0,0,-1
+589,Lab_001_Structured Analysis,se386_Spr2005_Lab_001_StructAnalysis.doc,134,0,0,-1
+590,Lab_002_Compile Puff,se386_Spr2005_Lab_002_CompilePuff.doc,134,0,0,-1
+591,Lab_003_Dynamic Analysis using RECON3,se386_Spr2005_Lab_003_DynamicAnalysis_RECON3.doc,134,0,0,-1
+592,Lab_004 Structured Analysis of PUFF,se386_Spr2005_Lab_004_StructAnalysis of PUFF.doc,134,0,0,-1
+593,Lab_005_OOA&amp;D of Puff to produce Classes,se386_Spr2005_Lab_005_Classes.doc,134,0,0,-1
+594,Lab_006_Target System Questions,se386_Spr2005_Lab_006_TargetSystem.doc,134,0,0,-1
+595,Example Project Report,se386_Spr2005_SampleProjectReport.doc,134,0,0,-1
+596,Example Time Log,se386SampleTimeLog.xls,134,0,0,-1
+597,Example Progress Report,se386_Spr2005_Example ProgressReport.doc,134,0,0,-1
+598,UW-Plattevilles Course Syllabus for Software Maintenance class,se386Spr2005_Syllabus.doc,0,0,0,-1
+599,List of course activities,se386Spr2005.html,134,0,0,-1
+600,Lab_001_Structured Analysis,se386_Spr2005_Lab_001_StructAnalysis.doc,134,0,0,-1
+601,Lab_002_Compile Puff,se386_Spr2005_Lab_002_CompilePuff.doc,134,0,0,-1
+602,Lab_003_Dynamic Analysis using RECON3,se386_Spr2005_Lab_003_DynamicAnalysis_RECON3.doc,134,0,0,-1
+603,Lab_004 Structured Analysis of PUFF,se386_Spr2005_Lab_004_StructAnalysis of PUFF.doc,134,0,0,-1
+604,Lab_005_OOA&amp;D of Puff to produce Classes,se386_Spr2005_Lab_005_Classes.doc,134,0,0,-1
+605,Lab_006_Target System Questions,se386_Spr2005_Lab_006_TargetSystem.doc,134,0,0,-1
+606,Example Project Report,se386_Spr2005_SampleProjectReport.doc,134,0,0,-1
+607,Example Time Log,se386SampleTimeLog.xls,134,0,0,-1
+608,Example Progress Report,se386_Spr2005_Example ProgressReport.doc,134,0,0,-1
+174,Lecture notes,SEprofession-lecture.pdf,110,0,0,-1
+175,Ariane 5 Accident video,ariane.mov,110,0,0,-1
+176,Ariane 5 Case Study Exercise,Ariane5exercise.doc,110,0,0,-1
+177,Ariane 5 Case Study Exercise,Ariane5exercise.pdf,110,0,0,-1
+178,Teaching tips,SEprofession-teaching.doc,110,0,0,-1
+404,"Applying Use Case Templates (lecture notes, 18 slides)",UsingUseCaseTemplates v2.ppt,144,0,0,-1
+405,Use Case Template,UseCaseTemplate-v1.doc,158,0,0,-1
+406,Description of lab access problem,LabRequestEntry.doc,158,0,0,-1
+407,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,158,0,0,-1
+408,Problem solution,RequestEntrySolution.doc,158,0,0,-1
+409,"Applying Use Case Templates (lecture notes, 18 slides)",UsingUseCaseTemplates v2.ppt,144,0,0,-1
+410,Use Case Template,UseCaseTemplate-v1.doc,158,0,0,-1
+411,Description of lab access problem,LabRequestEntry.doc,158,0,0,-1
+412,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,158,0,0,-1
+413,Problem solution,RequestEntrySolution.doc,158,0,0,-1
+414,"Applying Use Case Templates (lecture notes, 18 slides)",UsingUseCaseTemplates v2.ppt,144,0,0,-1
+415,Use Case Template,UseCaseTemplate-v1.doc,158,0,0,-1
+416,Description of lab access problem,LabRequestEntry.doc,158,0,0,-1
+417,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,158,0,0,-1
+418,Problem solution,RequestEntrySolution.doc,158,0,0,-1
+419,"Applying Use Case Templates (lecture notes, 18 slides)",UsingUseCaseTemplates v2.ppt,144,0,0,-1
+420,Use Case Template,UseCaseTemplate-v1.doc,158,0,0,-1
+421,Description of lab access problem,LabRequestEntry.doc,158,0,0,-1
+422,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,158,0,0,-1
+423,Problem solution,RequestEntrySolution.doc,158,0,0,-1
+424,"Applying Use Case Templates (lecture notes, 18 slides)",UsingUseCaseTemplates v2.ppt,144,0,0,-1
+425,Use Case Template,UseCaseTemplate-v1.doc,158,0,0,-1
+426,Description of lab access problem,LabRequestEntry.doc,158,0,0,-1
+427,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,158,0,0,-1
+428,Problem solution,RequestEntrySolution.doc,158,0,0,-1
+429,"Applying Use Case Templates (lecture notes, 18 slides)",UsingUseCaseTemplates v2.ppt,144,0,0,-1
+430,Use Case Template,UseCaseTemplate-v1.doc,158,0,0,-1
+431,Description of lab access problem,LabRequestEntry.doc,158,0,0,-1
+432,Lab exercise guidance/instructor notes,LabRequestEntryNotes.doc,158,0,0,-1
+433,Problem solution,RequestEntrySolution.doc,158,0,0,-1
+509,Problem Statement,problem-statement.htm,149,0,0,-1
+510,Solution 2.,solution2.doc,149,0,0,-1
+511,Tips for Instructors,tips-for-instructor.doc,149,0,0,-1
+512,Grading Criteria,grading_criterion.doc,149,0,0,-1
+513,Problem Statement,problem-statement.htm,149,0,0,-1
+514,Solution 2.,solution2.doc,149,0,0,-1
+515,Tips for Instructors,tips-for-instructor.doc,149,0,0,-1
+516,Grading Criteria,grading_criterion.doc,149,0,0,-1
+520,Placeholder until we are ready to upload the full package of materials,overview.html,151,0,0,-1
+521,test,test.txt,0,0,0,-1
+524,"Use Case Refinement (lecture notes, 11 &quot;boards&quot;",Use Case Refinement Lecture Notes.doc,157,0,0,-1
+525,Use case template,UseCaseTemplate-v1.doc,157,0,0,-1
+526,Homework assigment (existing use case),HasAccessHomework.doc,157,0,0,-1
+527,Solution to homework assignment (refined use case),HasAccessSolution.doc,157,0,0,-1
+528,Use Case Refinement Instructor Notes,UseCaseRefinement Instructor Notes.doc,157,0,0,-1
+529,"Use Case Refinement (lecture notes, 11 &quot;boards&quot;",Use Case Refinement Lecture Notes.doc,157,0,0,-1
+530,Use case template,UseCaseTemplate-v1.doc,157,0,0,-1
+531,Homework assigment (existing use case),HasAccessHomework.doc,157,0,0,-1
+532,Solution to homework assignment (refined use case),HasAccessSolution.doc,157,0,0,-1
+533,Use Case Refinement Instructor Notes,UseCaseRefinement Instructor Notes.doc,157,0,0,-1
+193,Ariane 5 Accident video,ariane.mov,110,0,0,-1
+194,Ariane 5 Case Study Exercise,Ariane5exercise.doc,110,0,0,-1
+195,Ariane 5 Case Study Exercise,Ariane5exercise.pdf,110,0,0,-1
+196,Teaching tips,SEprofession-teaching.doc,110,0,0,-1
+203,Lecture Notes,UnitTesting-lecture.ppt,125,0,0,-1
+204,Unit Test Planning Exercise,UnitTesting-exercise.doc,125,0,0,-1
+205,KEY to Unit Test Planning Exercise,UnitTesting-exercise-key.doc,125,0,0,-1
+206,Teaching Tips,Unit-Testing-teaching.doc,125,0,0,-1
+239,Extreme Programming Notes &amp; Lab,XP.doc,129,0,0,-1
+240,Exercise: Comparison of SEI CMM and XP,XPvsSEI.doc,129,0,0,-1
+338,"Object-Oriented Design Principles and Patterns<br>Design exercise",DesignPrinciplesAndPatterns.ppt,139,0,0,-1
+339,Design Problem - Two-player board game,Unit1-BoardGame.htm,139,0,0,-1
+340,Design Problem - Automobile Maintenance and Diagnosis System,Unit1-AutoDiagnostic.htm,139,0,0,-1
+341,Design Problem - Thrillian Messaging System,Unit1-Thrillian.htm,139,0,0,-1
+342,Design Problem - Picture Archiving and Communication System,Unit1-PACS.htm,139,0,0,-1
+362,Exercise #1: Baseline,SWmaintExercise1.htm,142,0,0,-1
+363,Exercise #2: Enhancements,SWmaintExercise2.htm,142,0,0,-1
+364,Exercise #3: Defect submission,SWmaintExercise3.htm,142,0,0,-1
+365,Exercise #4: Defect Correction,SWmaintExercise4.htm,142,0,0,-1
+366,Exercise #5: Assessment,SWmaintExercise5.htm,142,0,0,-1
+367,Exercise #1: Baseline,SWmaintExercise1.htm,142,0,0,-1
+368,Exercise #2: Enhancements,SWmaintExercise2.htm,142,0,0,-1
+369,Exercise #3: Defect submission,SWmaintExercise3.htm,142,0,0,-1
+370,Exercise #4: Defect Correction,SWmaintExercise4.htm,142,0,0,-1
+371,Exercise #5: Assessment,SWmaintExercise5.htm,142,0,0,-1
+372,Defect and Fault Maintenance Report - Linked from Exercise #3 description and also used in Exercise #4.,defect_and_maintenance_report_template.htm,142,0,0,-1
+373,Exercise #1: Baseline,SWmaintExercise1.htm,142,0,0,-1
+374,Exercise #2: Enhancements,SWmaintExercise2.htm,142,0,0,-1
+375,Exercise #3: Defect submission,SWmaintExercise3.htm,142,0,0,-1
+376,Exercise #4: Defect Correction,SWmaintExercise4.htm,142,0,0,-1
+377,Exercise #5: Assessment,SWmaintExercise5.htm,142,0,0,-1
+378,Defect and Fault Maintenance Report - Linked from Exercise #3 description and also used in Exercise #4.,defect_and_maintenance_report_template.htm,142,0,0,-1
+489,,Assignment-2.tech.pdf,123,0,0,-1
+490,,Assignment-2.tech-info.pdf,123,0,0,-1
+491,,Assignment-2.tech.pdf,123,0,0,-1
+492,,Assignment-2.tech-info.pdf,123,0,0,-1
+214,UW-Plattevilles Course Syllabus for Software Maintenance class,se386Spr2005_Syllabus.doc,0,0,0,-1
+289,"The project assignment, which gives the report structure, instructions for production, and grading criteria.",project-report.html,135,0,0,-1
+290,A template that students may use as the basis for their own HTML file.  They are required to submit a nicely laid out document with clean underlying HTML.,write-template.html,135,0,0,-1
+291,"Grading rubric #1 (based on Word printmerge capabiltiy) -- grading of section 1 and section 4, layout issues, and writing issues",write-rubric1.pdf,135,0,0,-1
+292,Grading rubric #1 filled in (as an example),write-fillin1.pdf,135,0,0,-1
+293,"Grading rubric #2, page 1 (based on Word printmerge capability) -- grading of either section 2 or section 3 plus layout and writing issues directly related to that section",write-rubric2-p1.pdf,135,0,0,-1
+294,"Grading rubric #2, page 2",write-rubric2-p2.pdf,135,0,0,-1
+295,"Grading rubric #2, page 1 -- filled in (as an example)",write-fillin2-p1.pdf,135,0,0,-1
+296,"Grading rubric #2, page 2 -- filled in (as an example)",write-fillin2-p2.pdf,135,0,0,-1
+297,"The project assignment, which gives the report structure, instructions for production, and grading criteria.",project-report.html,135,0,0,-1
+298,A template that students may use as the basis for their own HTML file.  They are required to submit a nicely laid out document with clean underlying HTML.,write-template.html,135,0,0,-1
+299,"Grading rubric #1 (based on Word printmerge capabiltiy) -- grading of section 1 and section 4, layout issues, and writing issues",write-rubric1.pdf,135,0,0,-1
+300,Grading rubric #1 filled in (as an example),write-fillin1.pdf,135,0,0,-1
+301,"Grading rubric #2, page 1 (based on Word printmerge capability) -- grading of either section 2 or section 3 plus layout and writing issues directly related to that section",write-rubric2-p1.pdf,135,0,0,-1
+302,"Grading rubric #2, page 2",write-rubric2-p2.pdf,135,0,0,-1
+303,"Grading rubric #2, page 1 -- filled in (as an example)",write-fillin2-p1.pdf,135,0,0,-1
+304,"Grading rubric #2, page 2 -- filled in (as an example)",write-fillin2-p2.pdf,135,0,0,-1
+305,"The project assignment, which gives the report structure, instructions for production, and grading criteria.",project-report.html,135,0,0,-1
+306,A template that students may use as the basis for their own HTML file.  They are required to submit a nicely laid out document with clean underlying HTML.,write-template.html,135,0,0,-1
+307,"Grading rubric #1 (based on Word printmerge capabiltiy) -- grading of section 1 and section 4, layout issues, and writing issues",write-rubric1.pdf,135,0,0,-1
+308,Grading rubric #1 filled in (as an example),write-fillin1.pdf,135,0,0,-1
+309,"Grading rubric #2, page 1 (based on Word printmerge capability) -- grading of either section 2 or section 3 plus layout and writing issues directly related to that section",write-rubric2-p1.pdf,135,0,0,-1
+310,"Grading rubric #2, page 2",write-rubric2-p2.pdf,135,0,0,-1
+311,"Grading rubric #2, page 1 -- filled in (as an example)",write-fillin2-p1.pdf,135,0,0,-1
+312,"Grading rubric #2, page 2 -- filled in (as an example)",write-fillin2-p2.pdf,135,0,0,-1
+313,"The project assignment, which gives the report structure, instructions for production, and grading criteria.",project-report.html,135,0,0,-1
+314,A template that students may use as the basis for their own HTML file.  They are required to submit a nicely laid out document with clean underlying HTML.,write-template.html,135,0,0,-1
+315,"Grading rubric #1 (based on Word printmerge capabiltiy) -- grading of section 1 and section 4, layout issues, and writing issues",write-rubric1.pdf,135,0,0,-1
+316,Grading rubric #1 filled in (as an example),write-fillin1.pdf,135,0,0,-1
+317,"Grading rubric #2, page 1 (based on Word printmerge capability) -- grading of either section 2 or section 3 plus layout and writing issues directly related to that section",write-rubric2-p1.pdf,135,0,0,-1
+318,"Grading rubric #2, page 2",write-rubric2-p2.pdf,135,0,0,-1
+319,"Grading rubric #2, page 1 -- filled in (as an example)",write-fillin2-p1.pdf,135,0,0,-1
+320,"Grading rubric #2, page 2 -- filled in (as an example)",write-fillin2-p2.pdf,135,0,0,-1
+321,"The project assignment, which gives the report structure, instructions for production, and grading criteria.",project-report.html,135,0,0,-1
+322,A template that students may use as the basis for their own HTML file.  They are required to submit a nicely laid out document with clean underlying HTML.,write-template.html,135,0,0,-1
+323,"Grading rubric #1 (based on Word printmerge capabiltiy) -- grading of section 1 and section 4, layout issues, and writing issues",write-rubric1.pdf,135,0,0,-1
+324,Grading rubric #1 filled in (as an example),write-fillin1.pdf,135,0,0,-1
+325,"Grading rubric #2, page 1 (based on Word printmerge capability) -- grading of either section 2 or section 3 plus layout and writing issues directly related to that section",write-rubric2-p1.pdf,135,0,0,-1
+326,"Grading rubric #2, page 2",write-rubric2-p2.pdf,135,0,0,-1
+327,"Grading rubric #2, page 1 -- filled in (as an example)",write-fillin2-p1.pdf,135,0,0,-1
+328,"Grading rubric #2, page 2 -- filled in (as an example)",write-fillin2-p2.pdf,135,0,0,-1
+329,,m1. FoundationPrograms.doc,136,0,0,-1
+331,Student exercise (TBD),B&WBoxTestingStudentExercise.doc,137,0,0,-1
+332,Lecture notes (TBD),B&WBoxTesting.ppt,137,0,0,-1
+333,Teaching tips (TBD),B&WBoxTestingTeachingTips.doc,137,0,0,-1
+334,Sample code modules (TBD),B&WBoxTestingSampleCodeModules.doc,137,0,0,-1
+518,Placeholder until we are ready to upload the full package of materials,overview.html,151,0,0,-1
+519,Placeholder until we are ready to upload the full package of materials,overview.html,151,0,0,-1
+609,,Assignment-2.tech.pdf,123,0,0,-1
+610,,Assignment-2.tech-info.pdf,123,0,0,-1
+611,,Assignment-2.tech.pdf,123,0,0,-1
+612,,Assignment-2.tech-info.pdf,123,0,0,-1
+613,Questions,UseCaseQuestions.doc,162,0,0,-1
+614,Answer key,UseCaseQuestionsKey.doc,162,0,0,-1
+615,Questions,UseCaseQuestions.doc,162,0,0,-1
+616,Answer key,UseCaseQuestionsKey.doc,162,0,0,-1
+621,Questions,UseCaseQuestions.doc,162,0,0,-1
+622,Answer key,UseCaseQuestionsKey.doc,162,0,0,-1
+623,Questions,UseCaseQuestions.doc,162,0,0,-1
+624,Answer key,UseCaseQuestionsKey.doc,162,0,0,-1
+625,Questions,UseCaseQuestions.doc,162,0,0,-1
+626,Answer key,UseCaseQuestionsKey.doc,162,0,0,-1
+627,Questions,UseCaseQuestions.doc,162,0,0,-1
+628,Answer key,UseCaseQuestionsKey.doc,162,0,0,-1
+635,Use Case Template,UseCaseTemplate-v1.doc,158,0,0,-1
+636,Description of lab access problem,LabRequestEntry_v2.doc,163,0,0,-1
+637,Problem solution,RequestEntrySolution_v2.doc,163,0,0,-1
+638,Lab exercise guidance/instructor notes,LabRequestEntryNotes_v2.doc,163,0,0,-1
+639,Lecture Notes (23 slides),UsingUseCaseTemplates_v4.ppt,163,0,0,-1
+640,Use Case Template,UseCaseTemplate-v1.doc,158,0,0,-1
+641,Description of lab access problem,LabRequestEntry_v2.doc,163,0,0,-1
+642,Problem solution,RequestEntrySolution_v2.doc,163,0,0,-1
+643,Lab exercise guidance/instructor notes,LabRequestEntryNotes_v2.doc,163,0,0,-1
+617,Questions,UseCaseQuestions.doc,162,0,0,-1
+618,Answer key,UseCaseQuestionsKey.doc,162,0,0,-1
+619,Questions,UseCaseQuestions.doc,162,0,0,-1
+620,Answer key,UseCaseQuestionsKey.doc,162,0,0,-1
+629,Questions,UseCaseQuestions.doc,162,0,0,-1
+630,Answer key,UseCaseQuestionsKey.doc,162,0,0,-1
+631,Questions,UseCaseQuestions.doc,162,0,0,-1
+632,Answer key,UseCaseQuestionsKey.doc,162,0,0,-1
+633,Questions,UseCaseQuestions.doc,162,0,0,-1
+634,Answer key,UseCaseQuestionsKey.doc,162,0,0,-1
+655,Use case template,UseCaseTemplate-v1.doc,158,0,0,-1
+656,Use Case Refinement Instructor Notes,UseCaseRefinement Instructor Notes.doc,157,0,0,-1
+657,Use Case Refinement Lecture Notes (11 &quot;boards&quot;),Lecture_v2.doc,165,0,0,-1
+658,Homework Assignment,Homework_v2.doc,0,0,0,-1
+659,A Homework Solution,HomeworkSolution_v2.doc,165,0,0,-1
+660,Request Entry Use Case (starting point for homework),RequestEntryUseCase.doc,0,0,0,-1
+661,Use case template,UseCaseTemplate-v1.doc,158,0,0,-1
+662,Use Case Refinement Instructor Notes,UseCaseRefinement Instructor Notes.doc,157,0,0,-1
+663,Use Case Refinement Lecture Notes (11 &quot;boards&quot;),Lecture_v2.doc,165,0,0,-1
+664,Homework Assignment,Homework_v2.doc,0,0,0,-1
+665,A Homework Solution,HomeworkSolution_v2.doc,165,0,0,-1
+666,Request Entry Use Case (starting point for homework),RequestEntryUseCase.doc,0,0,0,-1
+667,Use case template,UseCaseTemplate-v1.doc,158,0,0,-1
+668,Use Case Refinement Instructor Notes,UseCaseRefinement Instructor Notes.doc,157,0,0,-1
+669,Use Case Refinement Lecture Notes (11 &quot;boards&quot;),Lecture_v2.doc,165,0,0,-1
+670,Homework Assignment,Homework_v2.doc,0,0,0,-1
+671,A Homework Solution,HomeworkSolution_v2.doc,165,0,0,-1
+672,Request Entry Use Case (starting point for homework),RequestEntryUseCase.doc,0,0,0,-1
+673,Use case template,UseCaseTemplate-v1.doc,158,0,0,-1
+674,Use Case Refinement Instructor Notes,UseCaseRefinement Instructor Notes.doc,157,0,0,-1
+675,Use Case Refinement Lecture Notes (11 &quot;boards&quot;),Lecture_v2.doc,165,0,0,-1
+676,Homework Assignment,Homework_v2.doc,0,0,0,-1
+677,A Homework Solution,HomeworkSolution_v2.doc,165,0,0,-1
+678,Request Entry Use Case (starting point for homework),RequestEntryUseCase.doc,0,0,0,-1
+679,Use case template,UseCaseTemplate-v1.doc,158,0,0,-1
+680,Use Case Refinement Instructor Notes,UseCaseRefinement Instructor Notes.doc,157,0,0,-1
+681,Use Case Refinement Lecture Notes (11 &quot;boards&quot;),Lecture_v2.doc,165,0,0,-1
+682,Homework Assignment,Homework_v2.doc,0,0,0,-1
+683,A Homework Solution,HomeworkSolution_v2.doc,165,0,0,-1
+684,Request Entry Use Case (starting point for homework),RequestEntryUseCase.doc,0,0,0,-1
+685,Use case template,UseCaseTemplate-v1.doc,158,0,0,-1
+686,Use Case Refinement Instructor Notes,UseCaseRefinement Instructor Notes.doc,157,0,0,-1
+687,Use Case Refinement Lecture Notes (11 &quot;boards&quot;),Lecture_v2.doc,165,0,0,-1
+688,A Homework Solution,HomeworkSolution_v2.doc,165,0,0,-1
+689,Homework,Homework_v3.doc,165,0,0,-1
+690,Questions,UseCaseQuestions.doc,162,0,0,-1
+691,Answer key,UseCaseQuestionsKey.doc,162,0,0,-1
+692,Assignment statement,Assignment Statement.html,167,0,0,-1
+693,Problem description,Problem Description.html,167,0,0,-1
+694,Grading approach,Grading Approach.html,167,0,0,-1
+695,Teaching tips,Teaching Tips.html,167,0,0,-1
+696,Solution 1 - freehand,file1.jpg,167,0,0,-1
+697,Solution 1 - tool drawn,approach1.pdf,167,0,0,-1
+698,Solution 1 - class responsibilities,Description1.html,167,0,0,-1
+699,Solution 1 - evaluation,Evaluation1.html,167,0,0,-1
+700,Soultion 2 - freehand,file2.jpg,167,0,0,-1
+701,Solution 2 - class responsibilities,Description2.html,167,0,0,-1
+702,Solution 3 - freehand,file3.jpg,167,0,0,-1
+703,Assignment statement,Assignment Statement.html,167,0,0,-1
+704,Problem description,Problem Description.html,167,0,0,-1
+705,Grading approach,Grading Approach.html,167,0,0,-1
+706,Teaching tips,Teaching Tips.html,167,0,0,-1
+707,Solution 1 - freehand,file1.jpg,167,0,0,-1
+708,Solution 1 - tool drawn,approach1.pdf,167,0,0,-1
+709,Solution 1 - class responsibilities,Description1.html,167,0,0,-1
+710,Solution 1 - evaluation,Evaluation1.html,167,0,0,-1
+711,Soultion 2 - freehand,file2.jpg,167,0,0,-1
+712,Solution 2 - class responsibilities,Description2.html,167,0,0,-1
+713,Solution 3 - freehand,file3.jpg,167,0,0,-1
+644,Lecture Notes (23 slides),UsingUseCaseTemplates_v4.ppt,163,0,0,-1
+645,Use Case Template,UseCaseTemplate-v1.doc,158,0,0,-1
+646,Description of lab access problem,LabRequestEntry_v2.doc,163,0,0,-1
+647,Problem solution,RequestEntrySolution_v2.doc,163,0,0,-1
+648,Lab exercise guidance/instructor notes,LabRequestEntryNotes_v2.doc,163,0,0,-1
+649,Lecture Notes (23 slides),UsingUseCaseTemplates_v4.ppt,163,0,0,-1
+650,Use Case Template,UseCaseTemplate-v1.doc,158,0,0,-1
+651,Description of lab access problem,LabRequestEntry_v2.doc,163,0,0,-1
+652,Problem solution,RequestEntrySolution_v2.doc,163,0,0,-1
+653,Lab exercise guidance/instructor notes,LabRequestEntryNotes_v2.doc,163,0,0,-1
+654,Lecture Notes (23 slides),UsingUseCaseTemplates_v4.ppt,163,0,0,-1
+723,PSP scheduling exercise,PSP-schedule.doc,176,0,0,-1
+724,PSP scheduling exercise sample solution,PSP-schedule-soln.doc,176,0,0,1
+726,Module overview; read this file first,README-FIRST.html,177,0,0,-1
+729,Lecture notes subdirectory (create from the zipped file),lecture-notes.zip,177,0,0,-1
+727,Teaching notes; read this file second; explains how to adapt to module to a local setting,teaching-notes.html,177,0,0,-1
+728,"Table that shows the sequence of lectures, quizzes, homeworks, and other materials (assumes that the directory structure has been set up as specified in README-FIRST.html)",schedule-long.html,177,0,0,-1
+730,Quizzes subdirectory (create from the zipped file),quizzes.zip,177,0,0,-1
+731,"Homeworks subdirectory (create from the zipped file); NOTE: Contains sample solutions, so access has been restricted to faculty",homework.zip,177,0,0,1
+732,Extras subdirectory (create from the zipped file),extras.zip,177,0,0,-1
+733,"The project assignment, which gives the report structure, instructions for production, and grading criteria.",project-report.html,178,0,0,-1
+734,A template that students may use as the basis for their own HTML file.  They are required to submit a nicely laid out document with clean underlying HTML.,write-template.html,178,0,0,-1
+735,"Grading rubric #1 (based on Word printmerge capabiltiy) -- grading of section 1 and section 4, layout issues, and writing issues",write-rubric1.pdf,178,0,0,-1
+736,Grading rubric #1 filled in (as an example),write-fillin1.pdf,178,0,0,-1
+737,"Grading rubric #2, page 1 (based on Word printmerge capability) -- grading of either section 2 or section 3 plus layout and writing issues directly related to that section",write-rubric2-p1.pdf,178,0,0,-1
+738,"Grading rubric #2, page 2",write-rubric2-p2.pdf,178,0,0,-1
+739,"Grading rubric #2, page 1 -- filled in (as an example)",write-fillin2-p1.pdf,178,0,0,-1
+740,"Grading rubric #2, page 2 -- filled in (as an example)",write-fillin2-p2.pdf,178,0,0,-1
+741,Lab instructions,observerlab.htm,189,0,0,-1
+742,Source code to start lab,code.zip,189,0,0,-1
+743,Grading rubric,Grade Sheet.doc,189,0,0,1
