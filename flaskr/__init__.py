@@ -11,7 +11,7 @@ def create_app(test_config=None):
 		SECRET_KEY='dev', #Do Not Keep This when launching. Use a randomly generated key
 		#DATABASE=TODO, please update this
 	)
-	
+
 	if test_config is None:
 		#load the instance config, if exists, when not testing
 		app.config.from_pyfile('config.py', silent=True)
@@ -25,12 +25,9 @@ def create_app(test_config=None):
 	except OSError:
 		pass
 
-	#test page that says hello
-	@app.route('/hello')
-	def hello():
-		return 'Hello, World!'
-
-	from . import home
+	from . import home, module, browseall
 	app.register_blueprint(home.bp)
+	app.register_blueprint(module.bp)
+	app.register_blueprint(browseall.bp)
 
 	return app

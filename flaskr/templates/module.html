@@ -1,0 +1,141 @@
+<!doctype html>
+<title>Module</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/modulestyle.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+	<div class="topbar">
+		<a href="/home">Home</a>
+		<a href="/browseall">Browse Modules</a>
+    <a class="active" href="/module">Module View</a>
+    <a style="float:right" href="/home">Log In</a>
+	</div>
+
+	<div class="sidebar">
+    <div style="background-color:#333">
+    <h2 style="color:white">Module Group</h2>
+    <ul style="color:#d65a31">
+      <li><a href="/module"><b>Introduction to Object Oriented Design Patterns</b></a></li>
+      <br>
+      <li><a href="/module"><b>Variant of Introduction to Object-Oriented Design Patterns</b></a></li>
+    </ul>
+    </div>
+
+    <div style="background-color:#333">
+      <h2 style="color:white">See Also</h2>
+    </div>
+
+	</div>
+
+  <img style="position:absolute;top:0;right:0" src="{{ url_for('static', filename='img/logo.png') }}">
+
+  <!-- Module & Material information retrieved from http://www.swenet.org/viewModule.aspx?moduleID=79 -->
+	<div class="content">
+    <hr>
+		<h1>Introduction to Object Oriented Design Patterns</h1>
+		<hr>
+
+    <h2>Description</h2>
+    <p>This module introduces the concept of design patterns as tools for organizing and evaluating designs of small subsystems of components. The focus is on patterns per se, with only a slight nod towards systems of patterns (or pattern languages). In our experience, it is only after students have seen the power of individual patterns that they are ready to advance to using multiple patterns synergistically.
+    <br/><br/>
+    The presentation is based primarily on the seminal work in this area, namely <em>Design Patterns: Elements of Reusable Object-Oriented Software by Gamma, Helm, Johnson, and Vlissides</em> (often referred to as the Gang of Four book, or GOF).
+    </p>
+    <br>
+    <hr>
+
+    <h2>General Information</h2>
+
+    <table style="width:100%">
+      <tr>
+        <th>Authors</th>
+        <td>Michael Lutz</td>
+      </tr>
+      <tr>
+        <th>Interactivity Type</th>
+        <td>Mixed</td>
+      </tr>
+      <tr>
+        <th>Restricted to</th>
+        <td>User</td>
+      </tr>
+      <tr>
+        <th>Categories</th>
+        <td>
+          <ul>
+            <li>Design concepts</li>
+            <li>Design strategies</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>Topics</th>
+        <td>
+          <li>What are design patterns?</li>
+          <li>Where do patterns fit on the spectrum from general principles to specific concrete designs?</li>
+          <li>How are patterns organized and catalogued?</li>
+          <li>How are patterns described in a way that makes them useful?</li>
+          <li>How can one apply a pattern in practice?</li>
+        </td>
+      </tr>
+      <tr>
+        <th>Pre-requisites</th>
+        <td>
+          <ul>
+            <li>Students should be competent programmers in an object-oriented language (e.g., Java, C++, Smalltalk, Python, Ruby).</li>
+            <li>They should have a solid grasp on the notions of class, object and inheritance, and polymorphism.</li>
+            <li>Students should also be familiar with design principles such as high cohesion, low coupling, separation of concerns, and information hiding.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>Learning Objectives</th>
+        <td>
+          <ul>
+            <li><em>Knowledge</em> - Describe the role that patterns play in software design..</li>
+            <li><em>Knowledge</em> - Define the three categories of patterns in Gamma, et. al.</li>
+            <li><em>Comprehension</em> - Describe the major sections of a GOF pattern description, and tell why each is important.</li>
+            <li><em>Application</em> - Use the adapter pattern in the context of a small system.</li>
+          </ul>
+
+        </td>
+      </tr>
+      <tr>
+        <th>Author's Comments</th>
+        <td>This module is designed for use with second and third year students in computer engineering, computer science, and software engineering.</td>
+      </tr>
+      <tr>
+        <th>References</th>
+        <td>
+          <ul>
+            <li>Gamma, E., Helm, R., Johnson, R., and Vlissides, J. Design Patterns: Elements of Reusable Object-Oriented Software. Addison-Wesley, 1994.</li>
+            <li>Buschmann, F., Meunier, R., Rohnert, H., Sommerlad, P., Stal, M. Pattern-Oriented Software Architecture. John Wiley & Sons, 1996.</li>
+            <li>Schmidt, D., Stal, M., Rohnert, H., Buschmann, F. Pattern-Oriented Software Architecture (Vol. 2). John Wiley & Sons, 2000.</li>
+            <li>Grand, M. Patterns in Java. John Wiley & Sons, 1998.</li>
+            <li>Shalloway, A., and Trott, J. Design Patterns Explained. Addison-Wesley, 2002.</li>
+            <li><a href="https://hillside.net/patterns">Hillside Patterns Group Home Page</a></li>
+            <li><a href="http://wiki.c2.com/?DesignPatterns">Design Patterns Wiki Web</a></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>Rating</th>
+        <td>No Ratings! <button onclick="alert('Must be logged in to rate!')">Add Rating</button></td>
+      </tr>
+    </table>
+	</div>
+  <br>
+  <hr>
+
+  <h2>Materials</h2>
+  <ul style="padding:15px">
+    <li>Annotated lecture slides for introducing patterns <button><i class="fa fa-arrow-circle-o-down"></i></button></li>
+    <li>Sample exercises <button><i class="fa fa-arrow-circle-o-down"></i></button></li>
+  </ul>
+  <hr>
+
+
+
+
+
+	<section class="content">
+</body>
