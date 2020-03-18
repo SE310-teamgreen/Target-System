@@ -1,3 +1,10 @@
+-- THIS DATABASE WAS ADAPTED FROM THE EDREPO DATABASE SCHEMA, found
+-- at: http://edrepo.sourceforge.net/
+--
+-- IT CONTAINS DATA FROM THE SWENET DATABASE DUMP PROVIDED AS A PART
+-- OF THE SE410 COURSE MATERIALS
+--
+--
 -- phpMyAdmin SQL Dump
 -- version 4.8.5
 -- https://www.phpmyadmin.net/
@@ -2670,7 +2677,7 @@ ALTER TABLE `modulematerialslink`
 ALTER TABLE `moduleratings`
   ADD PRIMARY KEY (`ModuleID`),
   ADD KEY `FK_ModuleRatings_Module` (`ModuleID`);
-	
+
 
 --
 -- Indexes for table `modules`
@@ -2781,22 +2788,10 @@ ALTER TABLE `type`
 --
 
 --
--- Constraints for table `materialcomments`
---
-ALTER TABLE `materialcomments`
-  ADD CONSTRAINT `fk_materialcomments_1` FOREIGN KEY (`MaterialID`) REFERENCES `materials` (`MaterialID`) ON DELETE NO ACTION ON UPDATE NO ACTION;
-
---
 -- Constraints for table `modulecategories`
 --
 ALTER TABLE `modulecategories`
   ADD CONSTRAINT `FK_SEEKCategories_Modules` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
-
---
--- Constraints for table `modulelog`
---
-ALTER TABLE `modulelog`
-  ADD CONSTRAINT `FK_ModuleLog_Module` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
 
 --
 -- Constraints for table `modulematerialslink`
@@ -2829,13 +2824,6 @@ ALTER TABLE `prereqs`
 --
 ALTER TABLE `seealso`
   ADD CONSTRAINT `FK_SeeAlso_Module` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
-/*
---
--- Constraints for table `moduleratings`
---
-ALTER TABLE `moduleratings`
-  ADD CONSTRAINT `FK_ModuleRatings_Module` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
-*/
 
 --
 -- Constraints for table `topics`
