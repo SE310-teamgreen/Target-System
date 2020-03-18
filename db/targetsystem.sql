@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 14, 2020 at 05:10 AM
+-- Generation Time: Mar 18, 2020 at 04:18 AM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 5.6.40
 
@@ -261,22 +261,6 @@ INSERT INTO `emails` (`EmailID`, `Subject`, `Message`) VALUES
 (10, 'SWEnet: User <UserName> Awaiting Faculty Confirmation', 'Editors,\r\n\r\n<Name> has requested to be confirmed as legitimate faculty.  Registered faculty will be able to access materials protected from public view.\r\n\r\nYou can accept or reject this request at the Editor\'s Page (<SiteURL>/EditorsPage.aspx).\r\n\r\n<Name> has provided the following evidence of faculty standing:\r\n\r\n<CustomMessage>\r\n\r\nThank you,\r\n\r\nThe SWEnet Administrators'),
 (11, 'SWEnet: Faculty Status Request Approved For User <UserName>', '<Name>,\r\n\r\nYour request to be recognized as faculty on SWEnet has been approved.\r\n\r\nYou may now view faculty-exclusive materials within the submitted modules.\r\n\r\n<CustomMessage>\r\n\r\nThank you,\r\n\r\nThe SWEnet Editors'),
 (12, 'SWEnet: Faculty Status Request Denied For User <UserName>', '<Name>,\r\n\r\nSorry, but your request for faculty staning on SWEnet has been denied.\r\n\r\nYou may continue to use the site as a general user.\r\n\r\n<CustomMessage>\r\n\r\nThank you,\r\n\r\nThe SWEnet Editors');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `materialcomments`
---
-
-CREATE TABLE `materialcomments` (
-  `MaterialID` int(10) NOT NULL,
-  `Comments` varchar(1000) NOT NULL,
-  `Subject` varchar(250) NOT NULL,
-  `Date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `Rating` double NOT NULL,
-  `Author` varchar(50) NOT NULL,
-  `NumberOfRatings` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -1200,18 +1184,6 @@ INSERT INTO `modulegroups` (`GroupID`, `BaseID`) VALUES
 (68, 78),
 (71, 88),
 (72, 89);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `modulelog`
---
-
-CREATE TABLE `modulelog` (
-  `ModuleID` int(10) NOT NULL,
-  `Message` longtext NOT NULL,
-  `UserID` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -2146,6 +2118,115 @@ CREATE TABLE `prereqs` (
   `OrderID` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `prereqs`
+--
+
+INSERT INTO `prereqs` (`ModuleID`, `PrerequisiteText`, `OrderID`) VALUES
+(78, 'Although there is no specific prerequisite knowledge, it would be helpful if students were taking or had completed an introductory programming class.\r\n', 1),
+(79, 'Students should be competent programmers in an object-oriented language (e.g., Java, C++, Smalltalk, Python, Ruby).', 1),
+(79, 'They should have a solid grasp on the notions of class, object and inheritance, and polymorphism.', 2),
+(79, 'Students should also be familiar with design principles such as high cohesion, low coupling, separation of concerns, and information hiding.', 3),
+(80, 'Knowledge of very basic software engineering concepts and terminology', 1),
+(80, 'Experience as a user of some software products', 2),
+(80, '(Desirable) Experience writing a few small programs.', 3),
+(80, '(Desirable) Some exposure to larger programs\r\n', 4),
+(82, 'Knowledge of software engineering concepts and terminology.', 1),
+(82, 'Solid experience writing small and medium sized programs.', 2),
+(83, 'Proficiency in programming in a high-level language.', 1),
+(83, 'Experience in design of small software systems.', 2),
+(83, 'Familiarity with informal software requirements specifications.', 3),
+(83, 'Familiarity with Z formal notation.', 4),
+(83, 'Familiarity with simple LaTeX document preparation.', 5),
+(83, 'Basic proficiency with Z/EVES syntax checker and theorem prover functions.', 6),
+(84, 'Students should have written four or five computer programs.', 1),
+(84, 'They should be enrolled in or have completed an introductory programming course.', 2),
+(84, 'They should have had some introduction to the software engineering discipline, similar to the content of module OSE1.', 3),
+(85, 'Intermediate ability to read and understand C code.\r\n', 1),
+(85, 'General understanding of the purpose of code inspections', 2),
+(86, 'Proficiency in programming in a high-level language', 1),
+(86, 'Experience in developing small software systems', 2),
+(86, 'Familiarity with software engineering fundamentals and the software development life cycle. (OSE1 and SEP1)', 3),
+(86, 'Understanding of the basics of software requirements analysis and specification (REQ1)', 4),
+(86, 'Understanding of the basics of software reviews (QUA2)', 5),
+(87, 'Students should have written four or five computer programs.', 1),
+(87, 'Students should be enrolled in or have completed an introductory programming course. ', 2),
+(87, 'Students should have had some introduction to the software engineering discipline, similar to the content of module OSE1.', 3),
+(91, 'Students should have completed (or almost completed) a first course in programming.', 1),
+(91, 'They should have had an introduction to software engineering, similar to the content of module OSE1.', 2),
+(91, 'They should have some knowledge about software engineering professional issues, similar to the content of module OSE2.', 3),
+(104, 'Proficiency in programming in a high-level language.', 1),
+(104, 'Experience in the design of small software systems.', 2),
+(106, 'Students should have written four or five computer programs; they should be enrolled in or have completed an introductory programming course. ', 1),
+(106, 'Students should have had some introduction to the software engineering discipline, similar to the content of module OSE1.\r\n', 2),
+(109, 'Upper-level undergraduate or graduate student', 1),
+(109, 'Understanding of basic software engineering concepts, such as software process, requirements analysis, design, implementation, quality assurance, and software testing', 2),
+(110, 'Students should have a good background across the breadth of software engineering (project work including requirements design, programming, and testing)', 1),
+(111, 'Students should be competent programmers in an object-oriented language (e.g., Java, C++, Smalltalk, Python, Ruby).', 1),
+(111, 'They should have a solid grasp on the notions of class, object and inheritance, and polymorphism.', 2),
+(111, 'Students should also be familiar with design principles such as high cohesion, low coupling, separation of concerns, and information hiding.', 3),
+(115, 'Students should have written four or five Java programs.', 1),
+(115, 'Students should be enrolled in or have completed an introductory programming course.', 2),
+(116, 'Proficiency in programming in a high-level language.', 1),
+(116, 'Experience in design of small software systems.', 2),
+(116, 'Familiarity with informal software requirements specifications.', 3),
+(116, 'Familiarity with Z formal notation.', 4),
+(116, 'Familiarity with simple LaTeX document preparation.', 5),
+(116, 'Basic proficiency with Z/EVES syntax checker and theorem prover functions.', 6),
+(122, 'Basic knowledge of software engineering.  ', 1),
+(123, 'None.', 1),
+(125, 'Students should have written four or five Java programs.', 1),
+(125, 'Students should be enrolled in or have completed an introductory programming course.', 2),
+(127, 'Students should be familiar with software process models and be conversant with the various stages of a software project.', 1),
+(128, 'Advanced undgergraduate software engineering course work is recommended prior to taking this course.  (required: OOA&amp;D, Intro to SE, and solid programming skills)', 1),
+(129, 'To complete exercise: SEI CMM Levels 1-3 Concepts ', 1),
+(130, '1. Understanding the overall cycle of requirements gathering and management.', 1),
+(130, '2. Feeling the value of rough beginnings as equal to that of finished products -- probably requires work experience.', 2),
+(131, '1. Prior experience with real software projects (and so understanding how often stakeholder expectations are misaligned).', 1),
+(131, '2. Basic grasp of process improvement and software menagement tools and appreciation of their value.', 2),
+(133, '1. Experience at cooperative team interaction and division of responsibilities on a software project.', 1),
+(133, '2. Prior experience or training in role playing.', 2),
+(134, 'Advanced undgergraduate software engineering course work is recommended prior to taking this course.  (required: OOA&amp;D, Intro to SE, and solid programming skills)', 1),
+(135, 'SWE background affects thrust of assignment: low level of familiarity --&gt; pick up SWE ideas by observation and example; high level of familiarity --&gt; a deeper, more critical evaluation.', 1),
+(135, 'Technical background affects type of instruction needed: student must be able to navigate on the web and within directory structure, as well as apply various tools.  ', 2),
+(136, '', 1),
+(136, 'Programming experience using Java, including GUIs and standard collections.  Corequisite: use of IDE tool. ', 2),
+(137, 'Two semesters of programming for computer science majors (e.g., Computer Science I and Computer Science II).', 1),
+(138, 'Students should possess basic object-oriented programming knowledge.', 1),
+(138, 'Students should be able to muddle their way through a first-cut class decomposition of a small software system.', 2),
+(139, 'Students should possess basic object-oriented programming knowledge.', 1),
+(139, 'Students should be able to muddle their way through a first-cut class decomposition of a small software system.', 2),
+(142, 'Programming, data structures and basic analysis of algorithms', 1),
+(143, 'Programming Experience', 1),
+(143, 'Basic knowledge of requirements and life cycle', 2),
+(144, 'Familiarity with use case terminology and system-level sequence diagrams', 1),
+(145, ' Familiarity with use case terminology and the use case template.', 1),
+(146, 'Familiarity with use case terminology', 1),
+(147, 'None.', 1),
+(148, 'Some knowledge of programming, design decisions. CS1 sufficient so they understand implications recommendations after conducting testing.  Bottom line prerequisite: experience with GUIs.', 1),
+(149, 'OO Design, Design Patterns, Basic UML, Quality Attributes (module on Introduction to Software Architecture)', 1),
+(150, 'Basic principles of user-interface design.', 1),
+(151, 'Some knowledge of programming, design decisions. CS1 sufficient so they understand implications recommendations after conducting testing.  Bottom line prerequisite: experience with GUIs.', 1),
+(157, ' Familiarity with use case terminology and the use case template.', 1),
+(158, 'Familiarity with use case terminology', 1),
+(159, 'We designed this for an upper-level undergraduate SE course.  We assume some familiarity with finite-state automata.', 1),
+(160, 'Advanced undgergraduate software engineering course work is recommended prior to taking this course.  (required: OOA&amp;D, Intro to SE, and solid programming skills)', 1),
+(161, 'None.', 1),
+(161, 'Knowledge of one or more programming languages; basic software development capabilities at the implementation level.', 2),
+(162, 'Use cases: definition, interpretation, and use', 1),
+(163, 'Familiarity with use case terminology', 1),
+(164, ' Familiarity with use case terminology and the use case template.', 1),
+(165, ' Familiarity with use case terminology and the use case template.', 1),
+(166, 'Use cases: definition, interpretation, and use', 1),
+(167, 'Experience in OO programming', 1),
+(167, 'Basic understanding of UML class models', 2),
+(176, 'Students should have written four or five computer programs; they should be enrolled in or have completed an introductory programming course. ', 1),
+(176, 'Students should have had some introduction to the software engineering discipline, similar to the content of module OSE1.\r\n', 2),
+(177, 'Some knowledge of programming, design decisions. CS1 sufficient so they understand implications recommendations after conducting testing.  Bottom line prerequisite: experience with GUIs.', 1),
+(178, 'SWE background affects thrust of assignment: low level of familiarity --&gt; pick up SWE ideas by observation and example; high level of familiarity --&gt; a deeper, more critical evaluation.', 1),
+(178, 'Technical background affects type of instruction needed: student must be able to navigate on the web and within directory structure, as well as apply various tools.  ', 2),
+(189, 'java programming and automated unit testing in a framework like JUnit', 1);
+
 -- --------------------------------------------------------
 
 --
@@ -2558,12 +2639,6 @@ ALTER TABLE `emails`
   ADD PRIMARY KEY (`EmailID`);
 
 --
--- Indexes for table `materialcomments`
---
-ALTER TABLE `materialcomments`
-  ADD KEY `fk_materialcomments_1` (`MaterialID`);
-
---
 -- Indexes for table `materials`
 --
 ALTER TABLE `materials`
@@ -2580,12 +2655,6 @@ ALTER TABLE `modulebases`
 --
 ALTER TABLE `modulecategories`
   ADD KEY `FK_SEEKCategories_Modules` (`ModuleID`);
-
---
--- Indexes for table `modulelog`
---
-ALTER TABLE `modulelog`
-  ADD KEY `FK_ModuleLog_Module` (`ModuleID`);
 
 --
 -- Indexes for table `modulematerialslink`
@@ -2703,6 +2772,7 @@ ALTER TABLE `type`
 --
 -- AUTO_INCREMENT for table `users`
 --
+
 -- ALTER TABLE `users`
   -- MODIFY `UserID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
@@ -2773,6 +2843,10 @@ ALTER TABLE `moduleratings`
 ALTER TABLE `topics`
   ADD CONSTRAINT `FK_ba105067-1457-4ea3-8313-a7036091e2ea` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
 COMMIT;
+
+ALTER TABLE `users`
+  MODIFY `UserID` int(11) NOT NULL AUTO_INCREMENT;
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
