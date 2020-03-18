@@ -2599,7 +2599,9 @@ ALTER TABLE `modulematerialslink`
 -- Indexes for table `moduleratings`
 --
 ALTER TABLE `moduleratings`
-  ADD PRIMARY KEY (`ModuleID`);
+  ADD PRIMARY KEY (`ModuleID`),
+  ADD KEY `FK_ModuleRatings_Module` (`ModuleID`);
+	
 
 --
 -- Indexes for table `modules`
@@ -2711,14 +2713,14 @@ ALTER TABLE `type`
 --
 -- Constraints for table `materialcomments`
 --
-/*ALTER TABLE `materialcomments`
+ALTER TABLE `materialcomments`
   ADD CONSTRAINT `fk_materialcomments_1` FOREIGN KEY (`MaterialID`) REFERENCES `materials` (`MaterialID`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
 -- Constraints for table `modulecategories`
 --
 ALTER TABLE `modulecategories`
-  ADD CONSTRAINT `FK_SEEKCategories_Modules` FOREIGN KEY (`ModuleID`) REFERENCES `module` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+  ADD CONSTRAINT `FK_SEEKCategories_Modules` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
 
 --
 -- Constraints for table `modulelog`
@@ -2731,44 +2733,46 @@ ALTER TABLE `modulelog`
 --
 ALTER TABLE `modulematerialslink`
   ADD CONSTRAINT `FK_5ccc512d-bef0-47f8-9df6-bbdceb0f07e7` FOREIGN KEY (`MaterialID`) REFERENCES `materials` (`MaterialID`) ON DELETE CASCADE ON UPDATE NO ACTION,
-  ADD CONSTRAINT `FK_ca02cfd5-73b1-4089-98fb-364863711387` FOREIGN KEY (`ModuleID`) REFERENCES `module` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+  ADD CONSTRAINT `FK_ca02cfd5-73b1-4089-98fb-364863711387` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
 
---
--- Constraints for table `moduleratings`
---
-ALTER TABLE `moduleratings`
-  ADD CONSTRAINT `FK_ModuleRatings_Module` FOREIGN KEY (`ModuleID`) REFERENCES `module` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
 
 --
 -- Constraints for table `objectives`
 --
 ALTER TABLE `objectives`
-  ADD CONSTRAINT `FK_8d810522-aa37-4faa-be9b-6adf2a332aea` FOREIGN KEY (`ModuleID`) REFERENCES `module` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+  ADD CONSTRAINT `FK_8d810522-aa37-4faa-be9b-6adf2a332aea` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
 
 --
 -- Constraints for table `otherresources`
 --
 ALTER TABLE `otherresources`
-  ADD CONSTRAINT `FK_c0d00c32-bb7a-47af-8c68-dd5fd47c383c` FOREIGN KEY (`ModuleID`) REFERENCES `module` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+  ADD CONSTRAINT `FK_c0d00c32-bb7a-47af-8c68-dd5fd47c383c` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
 
 --
 -- Constraints for table `prereqs`
 --
 ALTER TABLE `prereqs`
-  ADD CONSTRAINT `FK_37490761-1077-44b7-9a56-8ce3d8eb4e93` FOREIGN KEY (`ModuleID`) REFERENCES `module` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+  ADD CONSTRAINT `FK_37490761-1077-44b7-9a56-8ce3d8eb4e93` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
 
 --
 -- Constraints for table `seealso`
 --
 ALTER TABLE `seealso`
-  ADD CONSTRAINT `FK_SeeAlso_Module` FOREIGN KEY (`ModuleID`) REFERENCES `module` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+  ADD CONSTRAINT `FK_SeeAlso_Module` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+/*
+--
+-- Constraints for table `moduleratings`
+--
+ALTER TABLE `moduleratings`
+  ADD CONSTRAINT `FK_ModuleRatings_Module` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+*/
 
 --
 -- Constraints for table `topics`
 --
 ALTER TABLE `topics`
-  ADD CONSTRAINT `FK_ba105067-1457-4ea3-8313-a7036091e2ea` FOREIGN KEY (`ModuleID`) REFERENCES `module` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
-COMMIT;*/
+  ADD CONSTRAINT `FK_ba105067-1457-4ea3-8313-a7036091e2ea` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
