@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
+# Adapted from Flaskr
+# tutorial https://flask.palletsprojects.com/en/1.1.x/tutorial/factory/
 
 import os
 
 from flask import Flask
+from . import home, module, browseall
 
 def create_app(test_config=None):
 	#create and configure the app
@@ -25,7 +28,7 @@ def create_app(test_config=None):
 	except OSError:
 		pass
 
-	from . import home, module, browseall
+	# Add blueprints
 	app.register_blueprint(home.bp)
 	app.register_blueprint(module.bp)
 	app.register_blueprint(browseall.bp)

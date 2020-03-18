@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Adapted from Flaskr tutorial https://flask.palletsprojects.com/en/1.1.x/tutorial/views/
 
 import functools
 

@@ -1,3 +1,5 @@
+# Adapted from Flaskr tutorial https://flask.palletsprojects.com/en/1.1.x/tutorial/views/
+
 import functools
 
 from flask import (
