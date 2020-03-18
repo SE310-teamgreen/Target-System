@@ -2518,15 +2518,110 @@ INSERT INTO `type` (`TypeID`, `Name`) VALUES
 --
 
 CREATE TABLE `users` (
-  `UserID` int(11) NOT NULL,
-  `FirstName` varchar(45) DEFAULT NULL,
-  `LastName` varchar(45) DEFAULT NULL,
+  `UserID` varchar(255) NOT NULL,
+  `Name` varchar(45) DEFAULT NULL,
   `Email` varchar(45) DEFAULT NULL,
   `Password` varchar(128) DEFAULT NULL,
   `Type` enum('AnonymousUser','User','Faculty','Submitter','Editor','Administrator','Canceled','Disabled') DEFAULT 'User',
   `Locked` enum('FALSE','TRUE') NOT NULL DEFAULT 'FALSE'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+INSERT INTO `users` (UserId,Name,Email,Password,Type) VALUES
+('admin','SWEnet Administrator','admin@swenet.org','18E7F425D2DEB4800179D5F483A91A41221A4A56','Administrator'),
+('almstrum','Vicki Almstrum','almstrum@cs.utexas.edu','B1DDF701EE1754E8172D4A7C6BBFEB76360D7408','Submitter'),
+('amisev','Anastas Misev','anastas@ii.edu.mk','C4ACDECD7508037F0E27B18A0BEB16B086CD2A0D','User'),
+('artadoci','Arta Doci','adoci@ouray.cudenver.edu',	'4FA7A2AD42CE69B61C4EBAE33EBBD86AC6D800C2','User'),
+('arunk','Arun Kapania','arunk@cheerful.com','AFE5348692C858C7A2F206F814B571C012FB8BF2'	,'User'),
+('avillanueva','Antonio Villanueva','tonyv1009@charter.net','9F9A1F4FD45EC2D16DB3AC62879F636096FB5D21','User'),
+('bagert,Donald','Bagert,Don','Bagert@rose-hulman.edu','8827B05B423C0DC67B0E555BDB7F3DE0211225B1','Submitter'),
+('BetzCMPS','Jessie M. Bethly-Betz','bethlybj@cmps.subr.edu','E3B8539D7AD59D83BA2A90809C94F0B78BC9C443','User'),
+('birov','Dimitar Birov','birov@fmi.uni-sofia.bg','FD562069CAC92EB14A8AB57A9CF6042232135AB6','User'),
+('BlueLajN','Jimmy','jimmy.st@hotmail.com','9FECEA826F17C097840160A004FE616686411B4A','User'),
+('burrise','Eddie Burris','burrise@umkc.edu','213BE16C475592EF6E7CE2CAA036E1283AF5E5C3'	,'Submitter'),
+('changliu','Chang Liu','liuc@ohio.edu','82139B6B80B30F4109DD5007DDE0B89A0FEB5E4F','Submitter'),
+('chaw','Sudarshan S. Chawathe','chaw@cs.stanford.edu','8D55987EFD1849110F34F15CFF6DD97E48DFCF77','Submitter'),
+('chenoweth','Steve Chenoweth','chenowet@rose-hulman.edu','B73D3E14AC7E35804A750E212C1973BA1E35D48D','Submitter'),
+('conniec','Cornelia Connolly','cornelia.connolly@dkit.ie','526522A3105E669B0D9EB4364F613837FC67D777','User'),
+('damsabum','David Dampier','dampier@cse.msstate.edu','3BF87683D8DF48FC928CDAA6A950F852CCD5A8B8','Submitter'),
+('davec','David Carrington','davec@itee.uq.edu.au','C4580FE1A148EF7B5C3649A0F79526C4E7DF4974','Submitter'),
+('davidk6','David Klappholz','d.klappholz@att.net','85F766DDA9BB08BCD9BCE16220349444084335E7','Submitter'),
+('delara','changiz','cdelara@gmail.com','4764879DAAB9D23D7832A891E8AB28242B8C2D8A','User'),
+('dih0658','Daniel Harris','dih0658@cs.rit.edu','092D53EC8BA621D6AB8AA08FCC153348BB286774','Administrator'),
+('jwg9538','Justin Glaser','jwg9538@rit.edu','803B94E26B796D21C1D075F084BA8E84FC537EDD'	,'Administrator'),
+('jvallino','James Vallino','J.Vallino@se.rit.edu','275E1A680AA3C12B123333816300494B0AD0698E','Submitter'),
+('jorgebec','Jorge Becerril','jorge_becerril@yahoo.com','1FBBE31D8BDA2C1DD661C1761D33B458C93A1139','User'),
+('jcollins','John Collins','jcollins@cs.umn.edu','F7B6EA126AB45E315149B71A6BA7DB2DDDDB4F5A','User'),
+('jaggus','karthik','karthiknice@yahoo.com','D08759C42EAEA2839971D517E524BF2EE40CE452','User'),
+('Ian','John','thomas.dahlberg@tiscali.se','908D03C79B2E0F344FA9BABB43AAF0A910073893','User'),
+('hislop','Greg Hislop','hislop@drexel.edu','F3ACC7ABFF7AD9468362333803CD7775C172B6BC','Administrator'),
+('helena_yu_10543','Helena Yu','hyu@mobius.com','B1E8964114D2D00FE50B37B70119A85DF0C377F6','User'),
+('HeidiEllis','Heidi Ellis','heidic@rh.edu','560A07CBAED8B2890816F6DBCCFF02D82ED5ED81','Submitter'),
+('hcorrea','Hector Correa','hector@hectorcorrea.com','0D9774968E05D6B0BEE736BC9A3F132FCA3C6F0C','User'),
+('hankley','William Hankley','hankley@cis.ksu.edu','14BC31F95D370EA82761C777EEEF2827217066B8','Submitter'),
+('gsborges','Gustavo S. Borges','gustavosborges@ig.com.br','3809ED4E1BF83CE8EECCF44414443C767E79743B','User'),
+('frezza001','Stephen T. Frezza','frezza001@gannon.edu','315A48E090DAC32385817C0441E5FD851AA0DDDC','Submitter'),
+('elibotia','Maria Isabel Alfonso Galipienso','eli@dccia.ua.es','F8AF417E4771FBD51DC45F56BDEC6ECC9A6A700C','User'),
+('durant','Eric Durant','durant@msoe.edu','8512919F8C14FA5984A4B216C2C1A6B7D5DD1326','Faculty'),
+('dsanders44','Dean Sanders','sanders@mail.nwmissouri.edu','E2AC695EF31A5ECEFB99CEF1DF696D0C87A6372D','Submitter'),
+('drab2004','Asim Burgic','asim.burgic@untz.ba','CAB82AFC16C0CB6B4F6916397DE38B92D97EDB0C','User'),
+('diptendu','Diptendu Dutta','diptendu@vsnl.com','E83CC284D691161BC1276E9CF6D690C84F25C1B5','User'),
+('jfdooley','John F. Dooley','jdooley@knox.edu','11F0EA136D17F88FC1F5CB94A5E38A46F2CAB8FD','User'),
+('Linos','Panos Linos','linos@butler.edu','88B4F72E4808E710F02F76B21A316E8B2BA57096','User'),
+('lazio','chuanqi wang','yang_chuanqi@163.com','3D3EF9DA89C26558B30871F05F071F1BE215F2B7','User'),
+('lanternan','jps','lanternan@msn.com','326AB7DB54EF2C9461F60F741AE17E3C68F687CC','User'),
+('kundu','Sukhamay Kundu','kundu@csc.lsu.edu','BAF266AB7CC5F9EE6EF18854EBD8800A61724467','User'),
+('kruchten','Philippe Kruchten','pbk@ece.ubc.ca','1C5F9DEEB9CC452868FB08D4130BA7421523184C','User'),
+('kribbe','christer ohlsson','hakan.ohlsson2@spray.se','D79CD5B8ED6BE7F9EF3712D2661874B24BBC62CD','User'),
+('kissarmy','kissarmy','ha_gul_29@hotmail.com','5D7D1D4E2AC4BF2E79C9B486E4B7B390B208FE2C','User'),
+('kirti','Kirti Garg','kirtigarg@students.iiit.net','91F5F84D5A9DDA54F8C9401EAF01EB04686051D9','User'),
+('Killalla','gfds','kile_101@hotmail.com','0793335E9F57A5FA1FB30160BF31E86F14C99026','Canceled'),
+('mckimj'	,'James McKim'	,'mckimj@winthrop.edu'	,'BD48D3B6E6475B23E9B6DD94A8030B64ADE96347'		,'Submitter'),
+('melperez'	,'Melvin Perez'	,'melperez@ieee.org',	'8365142C5CEC7F8AFF23ACA4279F92FDB5A07B72',		'Submitter'),
+('mengel'	,'Susan Mengel'	,'susan.mengel@ttu.edu'	,'A768DA38D73D8FDC5C65372CA81982A1635AAC69'		,'Submitter'),
+('mlutz',	'Michael Lutz'	,'mjlics@rit.edu',	'78EE79817177C660CE968CC563B4DF32B99D57EC',		'Administrator'),
+('mmccracken'	,'W. Michael McCracken'	,'mike@cc.gatech.edu'	,'171E40611013370074E28420016D6FCFF447328B'		,'Editor'),
+('msmarur',	'Madhusudhan Marur',	'marur@lycos.com',	'E7BF1F89D87D20D55CFDEA35AAFE7579CB8F8B2E',		'User'),
+('noll'	,'John Noll'	,'jnoll@carbon.cudenver.edu'	,'57E24D567993DBF1961D821F48DB4325E42F7EE3'		,'Submitter'),
+('pgrabow'	,'Paul Grabow'	,'Paul_Grabow@baylor.edu',	'FFEF555A13F82A7DE3B80F2FC8F93E88EBED25A2',		'Submitter'),
+('philtest'	,'Phil Makara'	,'phil@philmakara.com'	,'586112BDAE99A3D69BB322F1496E18A602522844'	,	'Administrator'),
+('pkb7639',	'Patrick Brennan',	'pkb7639@rit.edu',	'1E911A213737CC4920100C35F00FA7F8A4713444'	,	'Administrator'),
+('pmm'	,'Philip M. Makara'	,'pmm1626@rit.edu'	,'82C92DA1C9A4FA0CB5D2F889706091C6AC63B624'		,'Administrator'),
+('polack'	,'Jennifer Polack-'	,'polack@umw.edu'	,'3A44E56F4F65FEACCA76FA3D62CD76F173B98BA0'	,	'Submitter'),
+('pulimood'	,'Sarah Monisha Pulimood'	,'pulimood@tcnj.edu'	,'A129D6DA0009BD6B5093767F094DA4F876CB555E'		,'User'),
+('rcolomo'	,'Ricardo Colomo Palacios'	,'rcolomo@inf.uc3m.es'	,'8D5831FE832375C8B19DE2518543BF59DE2D195A'	,	'User'),
+('richardson'	,'Debra Richardson'	,'djr@ics.uci.edu'	,'63BC63B63A5C5D195B211E276976287E7DADB6EB'		,'Submitter'),
+('rowemi',	'Mike Rowe',	'rowemi@uwplatt.edu',	'CD2B565DD67193F94A9925B54108F56CA0415142',		'Submitter'),
+('rupchurch'	,'Richard Upchurch'	,'rupchurch@umassd.edu'	,'3CC9E54C143CEE83853FBD912B59019D9858019D'		,'User'),
+('rws4377'	,'Robert Songer'	,'robert.songer@gmail.com'	,'F5A8F01ACAC101F685096114FBFCF2D3421DAC66',		'Administrator'),
+('schubertge'	,'GARY SCHUIBERT'	,'SCHUBERT@AB.EDU'	,'1F9741376AE6FAE203A366366F5B05B44B01315D'		,'User'),
+('Scooby-Doo'	,'William'	,'scoobydoo_8882@hotmail.com'	,'68297D1CFA5A0A40B74522293CBDD22B6E7C1797'	,	'User'),
+('sebern'	,'Mark Sebern'	,'sebern@msoe.edu'	,'C992AD0B80B78EFF465D94ED223BB5452DAAEB26'		,'Administrator'),
+('sesmith5',	'Sarah E. Smith',	'sesmith5@ncsu.edu',	'7BD4CC9C84EF6DF4734C8EA44AD6E09F9B30776A'	,	'Submitter'),
+('skmarur'	,'sravankumar'	,'skmarur@gmail.com'	,'879628257E6390A6D882B8A885B841F693109EC6'		,'User'),
+('smitchel'	,'Susan Mitchell'	,'smitchel@csee.umbc.edu'	,'12D968A0F8BDF5399110F5F664D2AAA9E5616F0E'	,	'Submitter'),
+('sroach'	,'steve roach'	,'sroach@cs.utep.edu'	,'13C22EE42B41515F49ED96872AD95727995CBE71'		,'User'),
+('ssedighs'	,'Sahra Sedigh-Ali'	,'sedighs@umr.edu'	,'239D0069F7D5B0155949C6EAE7FABED92C8594C0'	,	'Submitter'),
+('suri'	,'Deepti Suri'	,'suri@msoe.edu'	,'3CAF3B23527A2EEFC3138399C8DEB965EC2066E6'	,'Submitter'),
+('susan',	'Susan Yang'	,'susan.rongyang@gmail.com'	,'7D936134ABFC075C2CB944F5F78953BE6D8E66D4'	,	'Submitter'),
+('SusanLincke'	,'Susan Lincke'	,'susan@lincke.org'	,'05CE5BE4C28417EC31A4607867215087FB0CC9D6'		,'Submitter'),
+('taylor'	,'Richard Taylor'	,'taylor@uci.edu',	'C4FA6DA5F18759BABD6EF149B789772D69C2BFFE',		'Submitter'),
+('tcl'	,'Timothy C. Lethbridge'	,'tcl@site.uottawa.ca'	,'F567362FCF1026A2756F9EC007FFD40E4D76D4A1'		,'User'),
+('test-no3'	,'Tester'	,'test@test.com',	'44EDF1F73C4D2E2C805E90EC7222384A2F09FAE7'	,	'Disabled'),
+('test6_2'	,'Release 6.2 Account'	,'62@rit.edu'	,'45A206A4B8E3C9A00BB8D69A1E04C8445BF78164'		,'User'),
+('TestUser',	'test'	,'jwg9538@rit.edu',	'B9D43A38F53651915B4D801A9D3FD08A16944E1C',		'User'),
+('thilburn'	,'Thomas Hilburn',	'hilburn@erau.edu'	,'4BCF6956E0CEEADA520DF8FD2462B96F4A9685C9'		,'Administrator'),
+('tomhorton',	'Tom Horton',	'horton@cs.virginia.edu',	'693A21D1246752959F39906A3C16DE87846AE6A7',		'Submitter'),
+('towhid'	,'Massood Towhidnejad'	,'towhid@erau.edu'	,'3BEDDF5109D8A42E177C35B46B3F3E0814ED6698'		,'Submitter'),
+('tsanfe',	'Tomas San Feliu',	'tsanfe@fi.upm.es',	'862FAED9EB5BE96FF2EBB7561C2DEBAB2D379EF8',		'User'),
+('umphress'	,'David Umphress'	,'umphress@eng.auburn.edu','751A61F5E88DED65214608BEFDFB2DEA359B4652'		,'User'),
+('vanhilst',	'Michael VanHilst',	'mike@cse.fau.edu',	'8CF85CF4FE2EB94AB7E6C55F08545F5FAE753169',		'Submitter'),
+('varghese'	,'Anthony Varghese'	,'anthony.varghese@uwrf.edu'	,'7CCCEEC2F4BA670DF947CF0C1453ACB728E595B6'		,'User'),
+('victorlam',	'Victor Lam',	'thangloi@pmail.ntu.edu.sg',	'BF484E605C849BA9854E953E5756D2944ED2EACC'	,	'User'),
+('vishwa'	,'K S Vishwanath'	,'vishwami@yahoo.com'	,'FE955FF2F6C0935A385BDB5DD128AC8423FFD774'		,'User'),
+('wallace',	'Charles Wallace'	,'wallace@mtu.edu'	,'573CE95C0E9D57A14640588BB6028DF89DB53397'	,	'Submitter'),
+('wellington'	,'Carol Wellington'	,'cawell@ship.edu'	,'080315B3B42AE24E59B1ABB8C8C3FDD7B534834B'		,'Submitter'),
+('XavierAeon',	'osama fayad', 'osama_rapstar@hotmail.com',	'7FF6B7E12675FF9C21BA1714F6F4C4F588A2F620',		'User'),
+('yywin'	,'Ye Yint Win'	,'yywin@bagan.net.mm'	,'519CE8FFCDD203C8A61BC0C5F5731352B936D162'		,'Submitter');
 --
 -- Indexes for dumped tables
 --
@@ -2573,7 +2668,9 @@ ALTER TABLE `modulematerialslink`
 -- Indexes for table `moduleratings`
 --
 ALTER TABLE `moduleratings`
-  ADD PRIMARY KEY (`ModuleID`);
+  ADD PRIMARY KEY (`ModuleID`),
+  ADD KEY `FK_ModuleRatings_Module` (`ModuleID`);
+	
 
 --
 -- Indexes for table `modules`
@@ -2675,6 +2772,78 @@ ALTER TABLE `type`
 --
 -- AUTO_INCREMENT for table `users`
 --
+
+-- ALTER TABLE `users`
+  -- MODIFY `UserID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `materialcomments`
+--
+ALTER TABLE `materialcomments`
+  ADD CONSTRAINT `fk_materialcomments_1` FOREIGN KEY (`MaterialID`) REFERENCES `materials` (`MaterialID`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+--
+-- Constraints for table `modulecategories`
+--
+ALTER TABLE `modulecategories`
+  ADD CONSTRAINT `FK_SEEKCategories_Modules` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+
+--
+-- Constraints for table `modulelog`
+--
+ALTER TABLE `modulelog`
+  ADD CONSTRAINT `FK_ModuleLog_Module` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+
+--
+-- Constraints for table `modulematerialslink`
+--
+ALTER TABLE `modulematerialslink`
+  ADD CONSTRAINT `FK_5ccc512d-bef0-47f8-9df6-bbdceb0f07e7` FOREIGN KEY (`MaterialID`) REFERENCES `materials` (`MaterialID`) ON DELETE CASCADE ON UPDATE NO ACTION,
+  ADD CONSTRAINT `FK_ca02cfd5-73b1-4089-98fb-364863711387` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+
+
+--
+-- Constraints for table `objectives`
+--
+ALTER TABLE `objectives`
+  ADD CONSTRAINT `FK_8d810522-aa37-4faa-be9b-6adf2a332aea` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+
+--
+-- Constraints for table `otherresources`
+--
+ALTER TABLE `otherresources`
+  ADD CONSTRAINT `FK_c0d00c32-bb7a-47af-8c68-dd5fd47c383c` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+
+--
+-- Constraints for table `prereqs`
+--
+ALTER TABLE `prereqs`
+  ADD CONSTRAINT `FK_37490761-1077-44b7-9a56-8ce3d8eb4e93` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+
+--
+-- Constraints for table `seealso`
+--
+ALTER TABLE `seealso`
+  ADD CONSTRAINT `FK_SeeAlso_Module` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+/*
+--
+-- Constraints for table `moduleratings`
+--
+ALTER TABLE `moduleratings`
+  ADD CONSTRAINT `FK_ModuleRatings_Module` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+*/
+
+--
+-- Constraints for table `topics`
+--
+ALTER TABLE `topics`
+  ADD CONSTRAINT `FK_ba105067-1457-4ea3-8313-a7036091e2ea` FOREIGN KEY (`ModuleID`) REFERENCES `modules` (`ModuleID`) ON DELETE CASCADE ON UPDATE NO ACTION;
+COMMIT;
+
 ALTER TABLE `users`
   MODIFY `UserID` int(11) NOT NULL AUTO_INCREMENT;
 
