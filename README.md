@@ -15,11 +15,11 @@ as this README file.
 
 If on Linux/OSX type:  
 export FLASK_APP=flaskr  
-export FLASK_ENV  
+export FLASK_ENV=development  
 
 If on Windows type:  
 set FLASK_APP=flaskr  
-set FLASK_ENV  
+set FLASK_ENV=development  
 
 Then run the command:  
 flask run  
