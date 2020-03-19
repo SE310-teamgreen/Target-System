@@ -54,7 +54,7 @@
         <option>Software Process</option>
         <option>Software Quality</option>
       </select><br><br>
-      <br><div id="cats"></div><br>
+      <br><br><div id="cats"></div><br>
       <button onclick="getElementById('cats').innerHTML = getElementById('cats').innerHTML.concat(getElementById('cat_select').value, '<br>')">Add</button>
       <button onclick="getElementById('cats').innerHTML = ''">Clear</button><br><br><br>
 
@@ -71,10 +71,15 @@
     </div>
 
     <label><b>Topics</b></label><input type="text" id="topic_select" style="float:right; width:50%;">
-    <br><div id="topics"></div><br>
+    <br><br><div id="topics"></div><br>
     <button onclick="getElementById('topics').innerHTML = getElementById('topics').innerHTML.concat(getElementById('topic_select').value, '<br>')">Add</button>
-    <button onclick="getElementById('topics').innerHTML = ''">Clear</button><br><br>
-  </div>
+    <button onclick="getElementById('topics').innerHTML = ''">Clear</button><br><br><br>
+
+    <label><b>Pre-requisites</b></label><input type="text" id="pr_select" style="float:right; width:50%;">
+    <br><br><div id="pr"></div><br>
+    <button onclick="getElementById('pr').innerHTML = getElementById('pr').innerHTML.concat(getElementById('pr_select').value, '<br>')">Add</button>
+    <button onclick="getElementById('pr').innerHTML = ''">Clear</button><br><br>
+    </div>
 
     <div>
     <hr>
@@ -86,7 +91,63 @@
       <label><b>Other content length (minutes)</b></label><input style="float:right; width:50%;" type="text"></input><br><br>
     </div>
 
+    <div>
+    <hr>
+      <h2>Module References</h2>
+      <label><b>Parent Module</b></label><select id="pm_select" style="float:right; width:50%;">
+        <option>Use Case Modeling</option>
+        <option>Software Reviews</option>
+        <option>Informal Requirements Modeling</option>
+        <option>Introduction to Software Engineering Processes</option>
+        <option>...</option>
+      </select><br><br>
+      <br><div id="pm"></div><br>
+      <button onclick="getElementById('pm').innerHTML = getElementById('pm_select').value">Add</button>
+      <button onclick="getElementById('pm').innerHTML = ''">Clear</button><br><br><br>
 
+      <label><b>Child Modules</b></label><select id="cm_select" style="float:right; width:50%;">
+        <option>Use Case Modeling</option>
+        <option>Software Reviews</option>
+        <option>Informal Requirements Modeling</option>
+        <option>Introduction to Software Engineering Processes</option>
+        <option>...</option>
+      </select><br><br>
+      <br><div id="cm"></div><br>
+      <button onclick="getElementById('cm').innerHTML = getElementById('cm').innerHTML.concat(getElementById('cm_select').value, '<br>')">Add</button>
+      <button onclick="getElementById('cm').innerHTML = ''">Clear</button><br><br><br>
+
+      <label><b>"See Also" Modules</b></label><select id="sa_select" style="float:right; width:50%;">
+        <option>Use Case Modeling</option>
+        <option>Software Reviews</option>
+        <option>Informal Requirements Modeling</option>
+        <option>Introduction to Software Engineering Processes</option>
+        <option>...</option>
+      </select><br><br>
+      <br><div id="sa"></div><br>
+      <button onclick="getElementById('sa').innerHTML = getElementById('sa').innerHTML.concat(getElementById('sa_select').value, '<br>')">Add</button>
+      <button onclick="getElementById('sa').innerHTML = ''">Clear</button><br><br><br>
+    </div>
+
+    <div>
+    <hr>
+      <h2>Materials</h2>
+
+      <div id="files"></div><br><br>
+      <input id="file_in" type="file"></input><br><br>
+      <button onclick="getElementById('files').innerHTML = getElementById('files').innerHTML.concat(getElementById('file_in').value, '<br>')">Add</button>
+      <button onclick="getElementById('files').innerHTML = ''">Clear</button>
+    <div>
+
+      <div>
+      <hr>
+        <button>Submit Module</button>
+        <button style="float:right">Save & Exit</button>
+      <div>
+
+    </div>
+
+
+  </div>
 
 
   </div>
