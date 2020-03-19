@@ -7,12 +7,12 @@ a { color: #377ba8; }
 .logo {
     background-color: #393e46;
 }
-.logo img{
-    position:relative;
-    top:0;
-    left:0;
-    width:10%;
-    height:auto;
+.logo img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: auto;
 }
 
 .topbar {
@@ -45,7 +45,7 @@ a { color: #377ba8; }
     list-style-position: inside;
     height: 100%;
     width: 300px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     background-color: #d65a31;
