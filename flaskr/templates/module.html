@@ -4,11 +4,15 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <body>
+    <div class="logo">
+        <a href="/home"><img src="{{ url_for('static', filename='img/logo.png') }}" ></a>
+    </div>
+
 	<div class="topbar">
 		<a href="/home">Home</a>
 		<a href="/browseall">Browse Modules</a>
     <a class="active" href="/module">Module View</a>
-    <a style="float:right" href="/home">Log In</a>
+    <a style="float:right" href="/login">Log In</a>
 	</div>
 
 	<div class="sidebar">
@@ -26,8 +30,6 @@
     </div>
 
 	</div>
-
-  <img style="position:absolute;top:0;right:0" src="{{ url_for('static', filename='img/logo.png') }}">
 
   <!-- Module & Material information retrieved from http://www.swenet.org/viewModule.aspx?moduleID=79 -->
 	<div class="content">
