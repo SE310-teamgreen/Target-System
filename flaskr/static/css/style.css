@@ -1,9 +1,9 @@
 html { font-family: sans-serif; background: #393e46; padding: 1rem; }
-body { max-width: 960px; margin: 0 auto; background: white; }
+body { max-width: 960px; margin: 0 auto; background: #fffbee; }
 h1 { font-family: sans-serif; color: black; padding:10px; }
 h2 { font-family: sans-serif; color: black; padding:10px; }
 a { color: #377ba8; }
-button { background-color: #d65a31; color: #f2f2f2; padding: 10px 15px; border: none; cursor: pointer; }
+button { background-color: #d65a31; color: #fffbee; padding: 10px 15px; border: none; cursor: pointer; }
 
 .logo {
     background-color: #393e46;
@@ -23,7 +23,7 @@ button { background-color: #d65a31; color: #f2f2f2; padding: 10px 15px; border: 
 
 .topbar a {
     float: left;
-    color: #f2f2f2;
+    color: #fffbee;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

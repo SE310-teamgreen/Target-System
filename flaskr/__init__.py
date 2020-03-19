@@ -5,7 +5,7 @@
 import os
 
 from flask import Flask
-from . import home, module, browseall, login
+from . import home, module, browseall, login, home2, modulewizard
 
 def create_app(test_config=None):
 	#create and configure the app
@@ -30,8 +30,10 @@ def create_app(test_config=None):
 
 	# Add blueprints
 	app.register_blueprint(home.bp)
+	app.register_blueprint(home2.bp)
 	app.register_blueprint(module.bp)
 	app.register_blueprint(browseall.bp)
 	app.register_blueprint(login.bp)
+	app.register_blueprint(modulewizard.bp)
 
 	return app

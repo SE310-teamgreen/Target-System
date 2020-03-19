@@ -1,0 +1,97 @@
+<!doctype html>
+<title>Welcome</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/wizardstyle.css') }}">
+<body>
+    <div class="logo">
+        <a href="/home"><img src="{{ url_for('static', filename='img/logo.png') }}" ></a>
+    </div>
+
+	<div class="topbar">
+		<a href="/home">Home</a>
+		<a href="/browseall">Browse Modules</a>
+    <a class="active" href="/modulewizard">Module Wizard</a>
+		<a style="float:right" href="/login">Account</a>
+	</div>
+
+	<div class="main">
+
+		<h1>Module Wizard</h1>
+    <hr>
+    <div>
+      <h2>Basic Module Information</h2>
+
+      <label><b>Author</b></label><input style="float:right; width:50%;" type="text"></input><br><br>
+      <label><b>Module Title</b></label><input style="float:right; width:50%;" type="text"></input><br><br>
+      <label><b>Module Description</b></label><textarea style="float:right; width:50%;" type="text"></textarea><br><br><br><br>
+      <label><b>User Group Restrictions</b></label><select style="float:right; width:50%;">
+        <option>Unregistered User</option>
+        <option>User</option>
+        <option>Faculty</option>
+        <option>Editor</option>
+        <option>Administrator</option>
+      </select><br><br>
+      <br><br>
+    </div>
+
+    <div>
+    <hr>
+      <h2>Module Content Type Details</h2>
+      <label><b>Interactivity Type</b></label><select style="float:right; width:50%;">
+        <option>Mixed</option>
+        <option>Active</option>
+        <option>Expositive</option>
+        <option>Undefined</option>
+      </select><br><br>
+
+      <label><b>Category</b></label><select id="cat_select" style="float:right; width:50%;">
+        <option>Computing Essentials</option>
+        <option>Software Design</option>
+        <option>Software Evolution</option>
+        <option>Mathematical and Engineering Fundamentals</option>
+        <option>Software Modeling and Analysis</option>
+        <option>Software Management</option>
+        <option>Professional Practice</option>
+        <option>Software Process</option>
+        <option>Software Quality</option>
+      </select><br><br>
+      <br><div id="cats"></div><br>
+      <button onclick="getElementById('cats').innerHTML = getElementById('cats').innerHTML.concat(getElementById('cat_select').value, '<br>')">Add</button>
+      <button onclick="getElementById('cats').innerHTML = ''">Clear</button><br><br><br>
+
+      <label><b>Objectives</b></label><select id="obj_select" style="float:right; width:50%;">
+        <option>Knowledge</option>
+        <option>Comprehension</option>
+        <option>Application</option>
+        <option>Synthesis</option>
+        <option>Evaluation</option>
+      </select><br><br>
+      <br><div id="obj"></div><br>
+      <button onclick="getElementById('obj').innerHTML = getElementById('obj').innerHTML.concat(getElementById('obj_select').value, '<br>')">Add</button>
+      <button onclick="getElementById('obj').innerHTML = ''">Clear</button><br><br><br>
+    </div>
+
+    <label><b>Topics</b></label><input type="text" id="topic_select" style="float:right; width:50%;">
+    <br><div id="topics"></div><br>
+    <button onclick="getElementById('topics').innerHTML = getElementById('topics').innerHTML.concat(getElementById('topic_select').value, '<br>')">Add</button>
+    <button onclick="getElementById('topics').innerHTML = ''">Clear</button><br><br>
+  </div>
+
+    <div>
+    <hr>
+      <h2>Module Content Duration Details</h2>
+      <label><b>Homework length (minutes)</b></label><input style="float:right; width:50%;" type="text"></input><br><br>
+      <label><b>Labwork length (minutes)</b></label><input style="float:right; width:50%;" type="text"></input><br><br>
+      <label><b>Lecture length (minutes)</b></label><input style="float:right; width:50%;" type="text"></input><br><br>
+      <label><b>Excersize length (minutes)</b></label><input style="float:right; width:50%;" type="text"></input><br><br>
+      <label><b>Other content length (minutes)</b></label><input style="float:right; width:50%;" type="text"></input><br><br>
+    </div>
+
+
+
+
+  </div>
+
+
+
+	<section class="content">
+</body>
