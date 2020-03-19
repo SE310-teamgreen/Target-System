@@ -1,6 +1,41 @@
 <!doctype html>
 <title>Welcome</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/browseall.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+    .search-container{
+        width: 500px;
+        margin: auto;
+    }
+    .filter{
+        color: white;
+    }
+    .sidebar {
+    float: left;
+    list-style-type: square;
+    list-style-position: inside;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #d65a31;
+    overflow-x: hidden;
+    padding: 14px 16px;
+    }
+</style>
 <body>
     <div class="logo">
         <a href="/home"><img src="{{ url_for('static', filename='img/logo.png') }}" ></a>
@@ -12,24 +47,150 @@
 		<a style="float:right" href="/login">Log In</a>
 	</div>
 
-	<div class="sidebar">
-	</div>
+    <div class="sidebar">
+        <div style="background-color: #333333">
+            <h2 style="color:#d65a31">Filters</h2>
+            <h3 style="color: darkgray">General</h3>
+            <form action="/action_page.php">
+                <input type="checkbox">
+                <label class="filter"> Show only top-level modules</label><br>
+                <input type="checkbox">
+                <label class="filter"> Show only modules with material</label><br>
+            </form>
+            <h3 style="color: darkgray">Category</h3>
+            <form action="/action_page.php">
+                <input type="checkbox">
+                <label class="filter"> Any</label><br>
+                <input type="checkbox">
+                <label class="filter"> Testing</label><br>
+                <input type="checkbox">
+                <label class="filter"> Programming</label><br>
+                <input type="checkbox">
+                <label class="filter"> Teaching</label><br>
+            </form>
+            <h3 style="color: darkgray">Type</h3>
+            <form action="/action_page.php">
+                <input type="checkbox">
+                <label class="filter"> Any</label><br>
+                <input type="checkbox">
+                <label class="filter"> Assessment Material</label><br>
+                <input type="checkbox">
+                <label class="filter"> Answer Key</label><br>
+                <input type="checkbox">
+                <label class="filter"> Portfolio</label><br>
+                <br><input type="submit" onclick="alert('Filter Applied')" value="Apply">
+                <br><input type="submit" onclick="alert('Filter Cleared')" value="Clear Filters">
+            </form>
+        </div>
+    </div>
+
+    <div style="padding: 10px;">
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="What are you looking for?">
+            <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
 
 	<div class="main">
-
-		<!-- PLACEHOLDER CODE BELOW -->
-
 		<h1>Browse Modules</h1>
-
-		<h2> THIS IS PLACEHOLDER TEXT </h2>
-		<ul>
-      <li><a href="/module"><b>Introduction to Object Oriented Design Patterns</b></a></li>
-      <br>
-      <li><a href="/module"><b>Variant of Introduction to Object-Oriented Design Patterns</b></a></li>
-    </ul>
+		<p style="color: slategrey">Use the filters on the left to help find what you're looking for.</p>
+        <label for="sort">Sort by </label>
+        <select id="sort">
+            <option value="title">Title</option>
+            <option value="id">ID</option>
+            <option value="submitter">Submitter</option>
+            <option value="date">Date</option>
+        </select>
+        <br>
+        <table border="5" width="100%" cellpadding="4" cellspacing="3">
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Submitter</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td><a href="/module">Software Quality Concepts (QUA1)</a></td>
+                <td>Hislop</td>
+                <td>15 September, 8:55 AM(2013)</td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td><a href="/module">Use Case Modeling (REQ3)</a></td>
+                <td>Thilburn</td>
+                <td>06 March, 10:27 PM(2015)</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td><a href="/module">Software Requirements: Simple Formal Modeling (REQ2)</a></td>
+                <td>Sebern</td>
+                <td>28 August, 9:00 AM(2010)</td>
+            </tr>
+            <tr>
+                <td>54</td>
+                <td><a href="/module">The Software Engineering Profession</a></td>
+                <td>Mengel</td>
+                <td>12 December, 11:23 AM(2016)</td>
+            </tr>
+            <tr>
+                <td>76</td>
+                <td><a href="/module">Introduction to Software Engineering Processes (SEP1)</a></td>
+                <td>Sebern</td>
+                <td>04 January, 6:05 PM(2009)</td>
+            </tr>
+            <tr>
+                <td>91</td>
+                <td><a href="/module">Black and White Box Testing</a></td>
+                <td>Almstrum</td>
+                <td>19 May, 3:29 PM(2011)</td>
+            </tr>
+            <tr>
+                <td>87</td>
+                <td><a href="/module">Applying Use Case Templates</a></td>
+                <td>Jvallino</td>
+                <td>21 November, 2:14 AM(2014)</td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td><a href="/module">User-Interface Prototyping</a></td>
+                <td>Ssedighs</td>
+                <td>15 October, 1:25 PM(2003)</td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td><a href="/module">Problem Statement Creation and Use</a></td>
+                <td>Susan Lincke</td>
+                <td>30 April, 7:45 PM(2012)</td>
+            </tr>
+            <tr>
+                <td>67</td>
+                <td><a href="/module">Verification and Validation: A Quick introduction</a></td>
+                <td>Jvallino</td>
+                <td>23 September, 10:30 AM(2017)</td>
+            </tr>
+            <tr>
+                <td>72</td>
+                <td><a href="/module">Foundation Program Assignment</a></td>
+                <td>Almstrum</td>
+                <td>13 March, 11:36 AM(2011)</td>
+            </tr>
+            <tr>
+                <td>53</td>
+                <td><a href="/module">Extreme Programming</a></td>
+                <td>Rowemi</td>
+                <td>17 April, 01:28 PM(2017)</td>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td><a href="/module">Introduction to Software Architecture</a></td>
+                <td>Mbattig</td>
+                <td>31 July, 06:18 AM(2007)</td>
+            </tr>
+        </table>
 	</div>
-
-
 
 	<section class="content">
 </body>
